@@ -1,0 +1,70 @@
+<section class="section is-medium">
+    <form method="POST" action="/playlist-create">
+        <div class="field is-horizontal">
+            <div class="field-label is-normal">
+                <label class="label">Playlist name</label>
+            </div>
+            <div class="field-body">
+                <div class="field">
+                    <p class="control">
+                        <input class="input" type="text" placeholder="My super playlist" name="name">
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="field is-horizontal">
+            <div class="field-label is-normal">
+                <label class="label">Playlist description</label>
+            </div>
+            <div class="field-body">
+                <div class="field">
+                    <p class="control">
+                        <input class="input" type="text" placeholder="My super description" name="description">
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="field is-horizontal">
+            <div class="field-label">
+                <label class="label">Public playlist</label>
+            </div>
+            <div class="field-body">
+                <div class="field is-narrow">
+                    <div class="control">
+                        <label class="checkbox">
+                            <input type="checkbox" name="pub">
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="field is-horizontal">
+            <div class="field-label is-normal">
+                <label class="label">Image Url</label>
+            </div>
+            <div class="field-body">
+                <div class="field">
+                    <div class="control">
+                        <input class="input" type="text" placeholder="https://..." name="imgUrl">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="field is-horizontal">
+            <div class="field-label"></div>
+            <div class="field-body">
+                <div class="field">
+                    <div class="control">
+                        <button class="button is-primary">
+                            Create
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</section>

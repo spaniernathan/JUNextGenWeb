@@ -1,0 +1,32 @@
+<section class="section is-small">
+    <h1 class="title">{{playlist.name}}</h1>
+    <h2 class="subtitle">{{playlist.description}}</h2>
+    <table class="table is-fullwidth">
+        <thead>
+        <tr>
+            <th>Image</th>
+            <th>Title</th>
+            <th>Artist</th>
+            <th>Album</th>
+            <th class="is-narrow">Duration</th>
+            <th class="is-narrow">...</th>
+        </tr>
+        </thead>
+        <tbody>
+        {{#each playlist.songs}}
+            <tr>
+                <th style="vertical-align: inherit;">
+                    <figure class="image is-64x64">
+                        <img src="{{imageUrl}}" alt="song album image"/>
+                    </figure>
+                </th>
+                <th style="vertical-align: inherit;">{{title}}</th>
+                <th style="vertical-align: inherit;">{{artist}}</th>
+                <th style="vertical-align: inherit;">{{album}}</th>
+                <th style="vertical-align: inherit;">{{fancyDuration duration}}</th>
+                <th style="vertical-align: inherit;">{{>addToPlaylistButton currentUser=../currentUser songId=id}}</th>
+            </tr>
+        {{/each}}
+        </tbody>
+    </table>
+</section>

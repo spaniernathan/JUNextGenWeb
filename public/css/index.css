@@ -1,0 +1,9 @@
+.dropdown-item-add-playlist {
+    border:none;
+    background-color: unset;
+}
+
+.dropdown-item-add-playlist:hover {
+    border:none;
+    background-color: #F5F5F5;
+}

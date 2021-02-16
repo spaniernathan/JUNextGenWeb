@@ -1,0 +1,12 @@
+<section class="section is-small">
+    <h1 class="title">Users</h1>
+    <div class="container">
+        <div class="columns is-multiline">
+            {{#each users}}
+            <div class="column is-3">
+                {{>userCard content=this}}
+            </div>
+            {{/each}}
+        </div>
+    </div>
+</section>
