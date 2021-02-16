@@ -7,7 +7,7 @@ const express = require('express');
 const { v4: uuidv4 } = require('uuid');
 const { pathParser, redirectIfNotLoggedIn } = require('./router/middlewares');
 let APIRouter = require('./API');
-const router = require('./router/routes');
+const router = require('./router');
 const app = express()
 
 app.use(express.static('public'))
@@ -18,7 +18,7 @@ app.engine('hbs', expressHandlebars({
 require('./views/components')();
 
 // API
-app.use("/api", APIRouter)
+app.use('/api', APIRouter)
 
 // Middleware initialisation
 app.use(cookieParser());
@@ -37,6 +37,6 @@ app.use(pathParser)
 app.use(redirectIfNotLoggedIn)
 
 // Main router
-app.use(router)
+app.use('/', router)
 
 app.listen(8080)

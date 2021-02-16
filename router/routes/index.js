@@ -3,10 +3,11 @@ let router = express.Router()
 let usersRouter = require('./users')
 let playlistsRouter = require('./playlists')
 let authRouter = require('./auth')
+const { models } = require('../../models')
 
-router.use('/users', usersRouter)
-router.use('/playlists', playlistsRouter)
-router.use('/auth', authRouter)
+router.use(usersRouter)
+router.use(playlistsRouter)
+router.use(authRouter)
 
 router.get('/', (req, res) => {
     models.playlists.listPublicPlaylists((err, playlistRows) => {
