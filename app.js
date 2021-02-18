@@ -1,11 +1,10 @@
+const express = require('express');
 const expressHandlebars = require('express-handlebars')
 const cookieParser = require('cookie-parser');
 const session = require('express-session');
 const bodyParser = require('body-parser');
 const flash = require('connect-flash');
-const express = require('express');
-const { v4: uuidv4 } = require('uuid');
-const { pathParser, redirectIfNotLoggedIn } = require('./router/middlewares');
+
 let APIRouter = require('./API');
 const router = require('./router');
 const app = express()
@@ -15,28 +14,30 @@ app.engine('hbs', expressHandlebars({
   defaultLayout: 'main.hbs',
 }))
 
+// Handlebars components
 require('./views/components')();
+
+app.use(bodyParser.urlencoded({ extended: true }))
 
 // API
 app.use('/api', APIRouter)
 
-// Middleware initialisation
+// App config
 app.use(cookieParser());
 app.use(session({
-  genid: () => { return uuidv4() },
+  genid: () => { return require('uuid')() },
   secret: "superdupersecret",
   resave: true,
   saveUninitialized: true,
   cookie: { maxAge: 86400000 },
 }));
-app.use(bodyParser.urlencoded({ extended: false }))
 app.use(flash())
-
-// Router middlewares
-app.use(pathParser)
-app.use(redirectIfNotLoggedIn)
 
 // Main router
 app.use('/', router)
+
+app.all('*', (req, res) => {
+  res.sendStatus(404)//.render("404.hbs");
+});
 
 app.listen(8080)

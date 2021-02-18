@@ -4,6 +4,10 @@ let usersRouter = require('./users')
 let playlistsRouter = require('./playlists')
 let authRouter = require('./auth')
 const { models } = require('../../models')
+const { pathParser, redirectIfNotLoggedIn } = require('../middlewares')
+
+router.use(pathParser)
+router.use(redirectIfNotLoggedIn)
 
 router.use(usersRouter)
 router.use(playlistsRouter)
@@ -42,9 +46,5 @@ router.get('/about', (req, res) => {
         currentUser: { ...req.session.currentUser },
     })
 })
-
-router.all('*', (req, res) => {
-    res.render("404.hbs")
-});
 
 module.exports = router

@@ -30,6 +30,12 @@ let SongsDB = class SongsDatabase {
             callback(err, rows);
         })
     }
+
+    searchSongs = ({ query }, callback) => {
+        return this.db.all(`SELECT * FROM songs WHERE title LIKE ? OR artist LIKE ? OR album LIKE ?`, [`%${query}%`, `%${query}%`, `%${query}%`], (err, rows) => {
+            callback(err, rows)
+        })
+    }
 };
 
 module.exports = SongsDB

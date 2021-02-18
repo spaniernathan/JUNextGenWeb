@@ -75,7 +75,7 @@ let PlaylistsDB = class PlaylistsDatabase {
     }
 
     searchPublicPlaylists = ({ query }, callback) => {
-        return this.db.all(`SELECT * FROM playlists WHERE public = true AND (name LIKE '%?%' OR description LIKE '%?%')`, [query, query], (err, rows) => {
+        return this.db.all(`SELECT * FROM playlists WHERE public = true AND (name LIKE ? OR description LIKE ?)`, [`%${query}%`, `%${query}%`], (err, rows) => {
             callback(err, rows)
         })
     }
