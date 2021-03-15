@@ -3,6 +3,7 @@ let router = express.Router()
 let usersRouter = require('./users')
 let playlistsRouter = require('./playlists')
 let authRouter = require('./auth')
+let songsRouter = require('./songs')
 const { models } = require('../../models')
 const { pathParser, redirectIfNotLoggedIn } = require('../middlewares')
 
@@ -10,6 +11,7 @@ router.use(pathParser)
 router.use(redirectIfNotLoggedIn)
 
 router.use(usersRouter)
+router.use(songsRouter)
 router.use(playlistsRouter)
 router.use(authRouter)
 

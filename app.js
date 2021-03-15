@@ -4,12 +4,14 @@ const cookieParser = require('cookie-parser');
 const session = require('express-session');
 const bodyParser = require('body-parser');
 const flash = require('connect-flash');
+const path = require('path');
 
 let APIRouter = require('./API');
 const router = require('./router');
 const app = express()
 
-app.use(express.static('public'))
+console.log(path.join(__dirname + '/public'))
+app.use(express.static(path.join(__dirname + '/public')));
 app.engine('hbs', expressHandlebars({
   defaultLayout: 'main.hbs',
 }))
@@ -37,7 +39,7 @@ app.use(flash())
 app.use('/', router)
 
 app.all('*', (req, res) => {
-  res.sendStatus(404)//.render("404.hbs");
+  res.status(404).render("404.hbs");
 });
 
 app.listen(8080)

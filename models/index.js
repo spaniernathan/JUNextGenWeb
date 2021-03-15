@@ -13,7 +13,7 @@ class Models {
             } else {
               console.log("Successfuly connected to database");
             }
-          });;
+          });
           this.database.serialize(() => {
             this.database.run("PRAGMA foreign_keys = ON");
             this.songs = new songsModels(this.database);
@@ -30,16 +30,9 @@ class Models {
     close = () => {
         this.database.close()
     }
-};
+}
 
 let models = new Models();
-
-/*
-models.database.run("SELECT name FROM sqlite_master WHERE type = 'table'", (err, rows) => {
-        console.log("err: ", err)
-        console.log("rows: ", rows)
-    })
-*/
 
 module.exports = {
     models

@@ -1,6 +1,6 @@
-var express = require('express')
+let express = require('express')
 const { models } = require('../../../models')
-var router = express.Router()
+let router = express.Router()
 
 router.get('/users', (req, res) => {
     models.users.listUsers((err, usersRows) => {
@@ -47,24 +47,18 @@ router.get('/users/:id', (req, res) => {
                 }
                 res.render("user.hbs", payload);
             }
+            const callbackUserPlaylist = (err, rows) => {
+                if (err) {
+                    console.log(err)
+                    // TODO: Handle error
+                } else {
+                    callback(payload, rows);
+                }
+            }
             if (req.session.currentUser.id === req.params.id) {
-                models.playlists.getUserPlaylists(req.params.id, (err, rows) => {
-                    if (err) {
-                        console.log(err)
-                        // TODO: Handle error
-                    } else {
-                        callback(payload, rows);
-                    }
-                })
+                models.playlists.getUserPlaylists(req.params.id, callbackUserPlaylist)
             } else {
-                models.playlists.getPublicUserPlaylists(req.params.id, (err, rows) => {
-                    if (err) {
-                        console.log(err)
-                        // TODO: Handle error
-                    } else {
-                        callback(payload, rows);
-                    }
-                })
+                models.playlists.getPublicUserPlaylists(req.params.id, callbackUserPlaylist)
             }
         }
     })

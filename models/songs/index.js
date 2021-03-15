@@ -4,7 +4,7 @@ const { v4: uuidv4 } = require('uuid');
 let SongsDB = class SongsDatabase {
     constructor(database) {
         this.db = database
-        database.run("CREATE TABLE IF NOT EXISTS songs(id VARCHAR(255) UNIQUE NOT NULL, \
+        database.run("CREATE TABLE IF NOT EXISTS songs (id VARCHAR(255) UNIQUE NOT NULL, \
             title VARCHAR(255) NOT NULL, \
             artist VARCHAR(255) NOT NULL, \
             album VARCHAR(255) NOT NULL, \
@@ -14,9 +14,11 @@ let SongsDB = class SongsDatabase {
         )");
     }
 
-    setSong = ({title, artist, album, duration, imageUrl}) => {
+    setSong = ({title, artist, album, duration, imageUrl}, callback) => {
         this.db.run(`INSERT INTO songs (id, title, artist, album, duration, imageUrl) \
-        VALUES (?, ?, ?, ?, ?, ?)`, [uuidv4(), title, artist, album, duration, imageUrl])
+        VALUES (?, ?, ?, ?, ?, ?)`, [uuidv4(), title, artist, album, duration, imageUrl], (err, row) => {
+            callback(err, row);
+        })
     }
 
     getSong = (id, callback) => {

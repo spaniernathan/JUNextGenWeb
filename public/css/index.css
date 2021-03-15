@@ -1,6 +1,7 @@
 .dropdown-item-add-playlist {
-    border:none;
     background-color: unset;
+    border: unset;
+    cursor: pointer;
 }
 
 .dropdown-item-add-playlist:hover {

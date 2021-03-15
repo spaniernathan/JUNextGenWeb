@@ -1,6 +1,6 @@
-var express = require('express')
+let express = require('express')
 const { models } = require('../../../models')
-var router = express.Router()
+let router = express.Router()
 const bcrypt = require('bcryptjs');
 const salt = bcrypt.genSaltSync(10);
 

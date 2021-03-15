@@ -1,4 +1,3 @@
-
 const { v4: uuidv4 } = require('uuid');
 
 let PlaylistsDB = class PlaylistsDatabase {
@@ -25,7 +24,10 @@ let PlaylistsDB = class PlaylistsDatabase {
     }
 
     getPlaylist = (id, callback) => {
-        this.db.get(`SELECT * FROM playlists WHERE id = ?`, [id], (err, row) => {
+        this.db.get(`SELECT p.*, users.displayname AS userDisplayName \
+        FROM playlists AS p \
+        INNER JOIN users ON users.id = p.user_id \
+        WHERE p.id = ?`, [id], (err, row) => {
             callback(err, row)
         })
     }
@@ -37,8 +39,17 @@ let PlaylistsDB = class PlaylistsDatabase {
         })
     }
 
+    removeSong = ({songId, playlistId}, callback) => {
+        this.db.run(`DELETE FROM playlists_songs WHERE id = (SELECT id FROM playlists_songs WHERE song_id = ? AND playlist_id = ? LIMIT 1)`, [songId, playlistId], (err, row) => {
+            callback(err, row)
+        })
+    }
+
     getPublicUserPlaylists = (userId, callback) => {
-        return this.db.all(`SELECT * FROM playlists WHERE user_id = ? AND public = true`, [userId], (err, row) => {
+        return this.db.all(`SELECT p.*, users.displayname AS userDisplayName \
+        FROM playlists AS p \
+        INNER JOIN users ON users.id = p.user_id \
+        WHERE p.user_id = ? AND p.public = true`, [userId], (err, row) => {
             if (callback) {
                 callback(err, row);
             }
@@ -46,37 +57,58 @@ let PlaylistsDB = class PlaylistsDatabase {
     }
 
     getUserPlaylists = (userId, callback) => {
-        return this.db.all(`SELECT * FROM playlists WHERE user_id = ?`, [userId], (err, rows) => {
+        return this.db.all(`SELECT p.*, users.displayname AS userDisplayName \
+        FROM playlists AS p \
+        INNER JOIN users ON users.id = p.user_id \
+        WHERE p.user_id = ?`, [userId], (err, rows) => {
             callback(err, rows)
         })
     }
 
     getPlaylistSongs = (id, callback) => {
-        return this.db.all(`SELECT playlists.id, playlists.name, playlists.description, \
-        songs.title, songs.album, songs.artist, songs.duration, songs.imageUrl, \
-        songs.id as songId FROM playlists \
-                JOIN playlists_songs ON playlists.id = playlist_id \
-                JOIN songs ON songs.id = playlists_songs.song_id \
+        return this.db.all(`SELECT playlists.*, 
+        songs.title, songs.album, songs.artist, songs.duration, songs.imageUrl, 
+        songs.id as songId, users.displayname AS userDisplayName FROM playlists
+                JOIN playlists_songs ON playlists.id = playlist_id 
+                JOIN songs ON songs.id = playlists_songs.song_id
+                JOIN users ON users.id = playlists.user_id 
                 WHERE playlists.id = ?`, [id], (err, rows) => {
             callback(err, rows)
         })
     }
 
     listPlaylists = (callback) => {
-        return this.db.all(`SELECT * FROM playlists`, (err, rows) => {
+        return this.db.all(`SELECT p.*, users.displayname AS userDisplayName \
+        FROM playlists AS p \
+        INNER JOIN users ON users.id = p.user_id`, (err, rows) => {
             callback(err, rows)
         })
     }
 
     listPublicPlaylists = (callback) => {
-        return this.db.all(`SELECT * FROM playlists WHERE public = true`, (err, rows) => {
+        return this.db.all(`SELECT p.*, users.displayname AS userDisplayName \
+        FROM playlists AS p \
+        INNER JOIN users ON users.id = p.user_id \
+        WHERE p.public = true`, (err, rows) => {
             callback(err, rows)
         })
     }
 
     searchPublicPlaylists = ({ query }, callback) => {
-        return this.db.all(`SELECT * FROM playlists WHERE public = true AND (name LIKE ? OR description LIKE ?)`, [`%${query}%`, `%${query}%`], (err, rows) => {
+        return this.db.all(`SELECT p.*, users.displayname AS userDisplayName \
+        FROM playlists AS p \
+        INNER JOIN users ON users.id = p.user_id \
+        WHERE p.public = true AND (name LIKE ? OR description LIKE ?)`, [`%${query}%`, `%${query}%`], (err, rows) => {
             callback(err, rows)
+        })
+    }
+
+    deletePlaylist = (id, callback) => {
+        return this.db.run(`DELETE FROM playlists WHERE id = ?`, [id], (err, rows) => {
+            if (err) { callback(err, rows) }
+            this.db.run(`DELETE FROM playlists_songs WHERE playlist_id = ?`, [id], (err, rows) => {
+                callback(err, rows)
+            })
         })
     }
 }

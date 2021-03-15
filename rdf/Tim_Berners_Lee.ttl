@@ -1,0 +1,1223 @@
+@prefix dbo:	<http://dbpedia.org/ontology/> .
+@prefix dbr:	<http://dbpedia.org/resource/> .
+dbr:List_of_computer_scientists	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/Timeline_of_computing_1990\u20131999>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Photograph	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:EFF_Pioneer_Award	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Jamillah_Knowles	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Internet_science	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/Leonard_Davis_(judge)>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Object-oriented_operating_system	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:List_of_Today_programme_guest_editors	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Alf_Morris	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Kilby_International_Awards	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Virtuoso_Universal_Server	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:WebDAV	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:SPARUL	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Semantic_Web	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:History_of_virtual_learning_environments	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:List_of_Internet_pioneers	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/1989>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:International_World_Wide_Web_Conference_Committee	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:June_1980	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Timeline_of_cryptography	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Timeline_of_historic_inventions	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Online_shopping	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Knowledge-based_engineering	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:History_of_technology	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:MIT_Computer_Science_and_Artificial_Intelligence_Laboratory	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Digital_photography	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Knowledge_policy	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Public-key_cryptography	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Nigel_Shadbolt	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Fellow_of_the_Royal_Society	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/List_of_American_Academy_of_Arts_and_Sciences_members_(1994\u20132005)>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Thought_for_the_Day	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:MacArthur_Fellows_Program	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/Nerds_2.0.1>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Collective_intelligence	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/1990s_in_science_and_technology>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+@prefix dbp:	<http://dbpedia.org/property/> .
+dbr:URL	dbp:authors	dbr:Tim_Berners-Lee ;
+	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:List_of_fellows_of_the_Royal_Society_of_Arts	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:List_of_fellows_of_the_British_Academy_elected_in_the_2010s	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:List_of_fellows_of_the_Royal_Society_elected_in_2001	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Standard_Generalized_Markup_Language	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Information_retrieval	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:GCHQ_Bude	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/Great_Britain_commemorative_stamps_2000\u201309>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Usenet	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Order_of_Merit	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:List_of_members_of_the_Order_of_Merit	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Norsk_Data	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/Quadriga_(award)>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/1955_in_the_United_Kingdom>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:NeXT	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Neil_Harbisson	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/Alberto_Ibarg\u00FCen>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Pallab_Ghosh	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Semantic_technology	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Semantic_HTML	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Web_Cryptography_API	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:History_of_blogging	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:List_of_TED_speakers	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Mark_Opzoomer	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Bodley_Medal	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:MeWe	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/1990_in_science>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/Irwin_M._Jacobs>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:UNESCO_Niels_Bohr_Medal	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/Renata_\u00C1vila_Pinto>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Semantic_interoperability	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Mary_Lee_Woods	dbp:children	dbr:Tim_Berners-Lee ;
+	dbo:child	dbr:Tim_Berners-Lee ;
+	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:John_Wheater	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Matt_Warman	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:University_of_Wollongong	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Internet_in_the_United_Kingdom	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Distinguished_Fellow_of_the_British_Computer_Society	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Pride_of_Britain_Awards	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Open_Data_Institute	dbo:foundedBy	dbr:Tim_Berners-Lee ;
+	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:CTB_v_News_Group_Newspapers_Ltd	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/Denis_O\u0027Regan>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:IP_Expo	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Enquire_Within_upon_Everything	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Fellow_of_the_Royal_Society_of_Arts	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Nick_Cave	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Phorm	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/State_(website)>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/Heaven_(Emeli_Sand\u00E9_song)>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/World_Wide_What%3F>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Protocol_Wars	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/Mike_Jensen_(internet_pioneer)>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Internet_in_India	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Campaign_for_Unmetered_Telecommunications	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/Digital_Archaeology_(exhibition)>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Contract_for_the_Web	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Clifford_Cocks	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/1997_Birthday_Honours>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Rufus_Pollock	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Marconi_Society	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix wikipedia-en:	<http://en.wikipedia.org/wiki/> .
+wikipedia-en:Tim_Berners-Lee	foaf:primaryTopic	dbr:Tim_Berners-Lee .
+dbr:General_Assembly_of_Unitarian_and_Free_Christian_Churches	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Richard_Dimbleby_Lecture	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/Pronunciation_of_%22www%22>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/2007_in_England>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:List_of_public_art_in_the_London_Borough_of_Richmond_upon_Thames	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Jessica_Yu	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Memento_Project	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/@timberners_lee>	dbo:wikiPageRedirects	dbr:Tim_Berners-Lee ;
+	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Tim_Lee	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Do_Lectures	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Berners-Lee	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee ;
+	dbo:wikiPageDisambiguates	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/T._Berners-Lee>	dbo:wikiPageRedirects	dbr:Tim_Berners-Lee ;
+	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Tim-Berners_Lee	dbo:wikiPageRedirects	dbr:Tim_Berners-Lee ;
+	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:TimBL	dbo:wikiPageRedirects	dbr:Tim_Berners-Lee ;
+	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Tim_Bernes-Lee	dbo:wikiPageRedirects	dbr:Tim_Berners-Lee ;
+	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Tim_Bernes_Lee	dbo:wikiPageRedirects	dbr:Tim_Berners-Lee ;
+	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Tim_Burners_Lee	dbo:wikiPageRedirects	dbr:Tim_Berners-Lee ;
+	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Tim_bl	dbo:wikiPageRedirects	dbr:Tim_Berners-Lee ;
+	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Timbl	dbo:wikiPageRedirects	dbr:Tim_Berners-Lee ;
+	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Timothy_Berners-Lee	dbo:wikiPageRedirects	dbr:Tim_Berners-Lee ;
+	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Timothy_John_Berners-Lee	dbo:wikiPageRedirects	dbr:Tim_Berners-Lee ;
+	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Tim_Berners_Lee	dbo:wikiPageRedirects	dbr:Tim_Berners-Lee ;
+	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Tim_berners-lee	dbo:wikiPageRedirects	dbr:Tim_Berners-Lee ;
+	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/Dr._Tim_Berners-Lee>	dbo:wikiPageRedirects	dbr:Tim_Berners-Lee ;
+	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Sir_Tim_Berners-Lee	dbo:wikiPageRedirects	dbr:Tim_Berners-Lee ;
+	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Sir_Tim_Berners_Lee	dbo:wikiPageRedirects	dbr:Tim_Berners-Lee ;
+	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Sir_Timothy_John_Berners-Lee	dbo:wikiPageRedirects	dbr:Tim_Berners-Lee ;
+	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/Sir_Timothy_John_Berners-Lee,_OM,_KBE,_FRS,_FREng,_FRSA>	dbo:wikiPageRedirects	dbr:Tim_Berners-Lee ;
+	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:E-commerce	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Gordon_Brown	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:The_New_Elizabethans	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Altice_Arena	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/100_Greatest_Britons>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Jimmy_Wales	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/2007_in_the_United_Kingdom>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Timeline_of_British_history	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Timeline_of_the_20th_century	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:James_Naughtie	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Anthony_Giddens	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Princess_of_Asturias_Awards	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Royal_Society_of_Arts	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:BT_Group	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Peer-to-peer	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Freedom_of_the_City_of_London	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+@prefix ns5:	<http://dbpedia.org/resource/IEEE/> .
+ns5:RSE_James_Clerk_Maxwell_Medal	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:IET_Mountbatten_Medal	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/President\u0027s_Medal_of_the_IOP>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Dennis_Gabor_Medal_and_Prize	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:IEEE_Intelligent_Systems	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/C&C_Prize>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Comparison_of_file_transfer_protocols	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Computer_History_Museum	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:List_of_University_of_Oxford_people_in_academic_disciplines	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Royal_Photographic_Society	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:List_of_University_of_Southampton_people	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:History_of_wikis	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/20th-century_events>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Richard_Dimbleby	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Timeline_of_Steve_Jobs_media	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:FSF_Free_Software_Awards	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Ali_Hossaini	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:History_of_photography	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Web_Science_Trust	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Virtual_office	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Daniel_Weitzner	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Larry_Masinter	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Mass_media_in_Canada	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Terry_Sanders	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:History_of_webcomics	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:History_of_computing_hardware	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Ted_Nelson	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Link_rot	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Ben_Shneiderman	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Memex	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:BCS_Lovelace_Medal	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Ronaldo_Lemos	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:History_of_Microsoft	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:List_of_pioneers_in_computer_science	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Henrik_Frystyk_Nielsen	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Outline_of_telecommunication	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Global_brain	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Tim_Bray	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Timeline_of_hypertext_technology	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/Dan_Connolly_(computer_scientist)>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Millennium_Technology_Prize	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:List_of_awards_and_honours_received_by_Tim_Berners-Lee	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:List_of_Old_Emanuels	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:List_of_English_inventions_and_discoveries	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Common_Wealth_Award_of_Distinguished_Service	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Timeline_of_scientific_thought	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Emerging_technologies	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Amit_Sheth	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:United_Kingdom	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Endorsements_in_the_2016_United_Kingdom_European_Union_membership_referendum	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:University_of_Southampton	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Internet_Explorer	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Packet_processing	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Oxford_Internet_Institute	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Giant_Global_Graph	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/Turtle_(syntax)>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Outline_of_information_science	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/List_of_Honorary_Fellows_of_The_Queen\u0027s_College,_Oxford>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Andrew_Karney	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Tabulator	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Hypertext_Transfer_Protocol	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/2012_Summer_Olympics_opening_ceremony>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:List_of_Halt_and_Catch_Fire_episodes	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Turing_Award	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/Piggybacking_(Internet_access)>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:List_of_English_inventors_and_designers	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:List_of_people_considered_father_or_mother_of_a_field	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:List_of_inventors	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:MIT_Technology_Review	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:History_of_Google	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:List_of_people_from_Lexington	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/Guide_(hypertext)>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Hypertext	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Website	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Web_design	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Social_software	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:HTML	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:CERN	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Web_browser	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Web_resource	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Hyperlink	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/Mosaic_(web_browser)>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Web_content_lifecycle	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix yago:	<http://dbpedia.org/class/yago/> .
+dbr:Tim_Berners-Lee	rdf:type	yago:WikicatBritishPhysicists .
+@prefix ns8:	<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#> .
+dbr:Tim_Berners-Lee	rdf:type	ns8:NaturalPerson ,
+		ns8:Agent ,
+		yago:WikicatBritishPeople ,
+		yago:Serviceman110582746 ,
+		yago:Originator110383816 ,
+		yago:Pioneer110434725 ,
+		yago:Creator109614315 ,
+		yago:WikicatJapanPrizeLaureates ,
+		yago:MilitaryOfficer110317007 .
+@prefix wikidata:	<http://www.wikidata.org/entity/> .
+dbr:Tim_Berners-Lee	rdf:type	wikidata:Q215627 ,
+		yago:WikicatFellowsOfTheAmericanAcademyOfArtsAndSciences ,
+		wikidata:Q24229398 ,
+		wikidata:Q5 ,
+		yago:PhysicalEntity100001930 ,
+		yago:Person100007846 ,
+		yago:Organism100004475 ,
+		dbo:Person ,
+		yago:Object100002684 ,
+		yago:WikicatOfficersOfTheOrderOfTheBritishEmpire ,
+		yago:Whole100003553 ,
+		yago:SkilledWorker110605985 ,
+		yago:Scholar110557854 ,
+		yago:Recipient109627906 ,
+		yago:ComputerUser109951274 ,
+		yago:ComputerScientist109951070 ,
+		yago:YagoLegalActor ,
+		yago:YagoLegalActorGeo ,
+		yago:Worker109632518 ,
+		yago:WikicatMacArthurFellows ,
+		yago:WikicatLivingPeople ,
+		dbo:Agent ,
+		yago:Contestant109613191 ,
+		yago:Alumnus109786338 ,
+		yago:CausalAgent100007347 ,
+		<http://dbpedia.org/class/yago/WikicatFellowsOfTheQueen\u0027sCollege,Oxford> ,
+		yago:Acquirer109764201 ,
+		yago:LivingThing100004258 ,
+		yago:Laureate110249011 ,
+		yago:Honoree110183757 ,
+		yago:Intellectual109621545 ,
+		yago:WikicatEnglishExpatriatesInTheUnitedStates ,
+		yago:Player110439851 ,
+		yago:Golfer110136959 ,
+		yago:Inventor110214637 ,
+		yago:WikicatEnglishEngineers ,
+		yago:WikicatEnglishInventors ,
+		yago:WikicatBritishInventors ,
+		yago:Medalist110304914 ,
+		yago:Associate109816771 ,
+		yago:WikicatRoyalMedalWinners ,
+		yago:Scientist110560637 ,
+		yago:WikicatPeopleFromLondon ,
+		yago:Peer109626238 ,
+		yago:Colleague109935990 ,
+		yago:Programmer110481268 ,
+		yago:WikicatEnglishComputerScientists ,
+		yago:WikicatBritishComputerScientists ,
+		foaf:Person ,
+		yago:Physicist110428004 ,
+		yago:WikicatFellowsOfTheRoyalSociety ,
+		yago:Engineer109615807 ,
+		<http://dbpedia.org/class/yago/WikicatPeopleFromBarnes,London> ,
+		yago:WikicatFellowsOfTheRoyalAcademyOfEngineering ,
+		yago:WikicatFellowsOfTheBritishComputerSociety ,
+		yago:WikicatPeopleEducatedAtEmanuelSchool ,
+		yago:WikicatBritishComputerProgrammers .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+dbr:Tim_Berners-Lee	rdf:type	owl:Thing ,
+		yago:WikicatInternetPioneers ,
+		<http://dbpedia.org/class/yago/WikicatAlumniOfTheQueen\u0027sCollege,Oxford> ,
+		yago:WikicatComputerScientists ,
+		yago:Absentee109757653 .
+@prefix schema:	<http://schema.org/> .
+dbr:Tim_Berners-Lee	rdf:type	schema:Person ,
+		yago:Traveler109629752 ,
+		yago:Exile110071332 .
+@prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
+dbr:Tim_Berners-Lee	rdfs:label	"Tim Berners-Lee"@eo ,
+		"\u062A\u064A\u0645 \u0628\u064A\u0631\u0646\u0631\u0632 \u0644\u064A"@ar ,
+		"\u8482\u59C6\u00B7\u4F2F\u7EB3\u65AF-\u674E"@zh ,
+		"Tim Berners-Lee"@pt ,
+		"Tim Berners-Lee"@es ,
+		"Tim Berners-Lee"@de ,
+		"\uD300 \uBC84\uB108\uC2A4\uB9AC"@ko ,
+		"Tim Berners-Lee"@in ,
+		"Tim Berners-Lee"@nl ,
+		"Tim Berners-Lee"@fr ,
+		"\u03A4\u03B9\u03BC \u039C\u03C0\u03AD\u03C1\u03BD\u03B5\u03C1\u03C2 \u039B\u03B9"@el ,
+		"Tim Berners-Lee"@it ,
+		"Tim Berners-Lee"@cs ,
+		"Tim Berners-Lee"@ca ,
+		"\u0411\u0435\u0440\u043D\u0435\u0440\u0441-\u041B\u0438, \u0422\u0438\u043C"@ru ,
+		"Tim Berners-Lee"@en ,
+		"Tim Berners-Lee"@eu ,
+		"\u0422\u0456\u043C \u0411\u0435\u0440\u043D\u0435\u0440\u0441-\u041B\u0456"@uk ,
+		"Tim Berners-Lee"@ga ,
+		"Tim Berners-Lee"@sv ,
+		"\u30C6\u30A3\u30E0\u30FB\u30D0\u30FC\u30CA\u30FC\u30BA\uFF1D\u30EA\u30FC"@ja ,
+		"Tim Berners-Lee"@pl ;
+	rdfs:comment	"Timothy John \"Tim\" BERNERS-LEE, konata anka\u016D kiel TimBL (naski\u011Dis la 8-an de junio 1955) estas angla informadikisto kaj la iniciatinto de la Tut-Tera Teksa\u0135o. En Marto 1989, Berners-Lee proponis projekton al sia dunganto CERN, bazitan sur la koncepto de Hiperteksto, por faciligi la disdividon kaj la \u011Disdatigon de informoj inter esploristoj nome inter kliento kaj servilo pere de Interreto iom \u0109irka\u016D mezo de Novembro tiun saman jaron. Tiele li konstruis la sistemon kiu fari\u011Dis la fundamento de la TTT."@eo ,
+		"\u30C6\u30A3\u30E2\u30B7\u30FC\u30FB\"\u30C6\u30A3\u30E0\"\u30FB\u30B8\u30E7\u30F3\u30FB\u30D0\u30FC\u30CA\u30FC\u30BA\uFF1D\u30EA\u30FC\uFF08\u82F1\u8A9E: Timothy \"Tim\" John Berners-Lee, 1955\u5E746\u67088\u65E5 - \uFF09\u306F\u3001\u30A4\u30AE\u30EA\u30B9\u306E\u8A08\u7B97\u6A5F\u79D1\u5B66\u8005\u3002\u30ED\u30D0\u30FC\u30C8\u30FB\u30AB\u30A4\u30EA\u30E5\u30FC\u3068\u3068\u3082\u306BWorld Wide Web\uFF08WWW\uFF09\u3092\u8003\u6848\u3057\u3001\u30CF\u30A4\u30D1\u30FC\u30C6\u30AD\u30B9\u30C8\u30B7\u30B9\u30C6\u30E0\u3092\u5B9F\u88C5\u30FB\u958B\u767A\u3057\u305F\u4EBA\u7269\u3067\u3042\u308B\u3002\u307E\u305FURL\u3001HTTP\u3001HTML \u306E\u6700\u521D\u306E\u8A2D\u8A08\u306F\u5F7C\u306B\u3088\u308B\u3082\u306E\u3067\u3042\u308B\u3002 \u30E1\u30EA\u30C3\u30C8\u52F2\u7AE0\uFF08OM\uFF09\u3001\u5927\u82F1\u5E1D\u56FD\u52F2\u7AE0\uFF08KBE\uFF09\u3001FRS\uFF08\u738B\u7ACB\u5354\u4F1A\u30D5\u30A7\u30ED\u30FC\uFF09\u3001FREng\uFF08\u30D5\u30A7\u30ED\u30FC\uFF09\u3001FRSA\uFF08\u738B\u7ACB\u6280\u82B8\u5354\u4F1A\u30D5\u30A7\u30ED\u30FC\uFF09\u3092\u4FDD\u6301\u3059\u308B\u3002"@ja ,
+		"\u0627\u0644\u0633\u064A\u0631 \u062A\u064A\u0645 \u0628\u064A\u0631\u0646\u0631\u0632 \u0644\u064A (\u0628\u0627\u0644\u0625\u0646\u062C\u0644\u064A\u0632\u064A\u0629: Sir Tim Berners-Lee) \u0648\u0644\u062F \u0641\u064A 8 \u064A\u0648\u0646\u064A\u0648 1955\u060C \u0647\u0648 \u0645\u0647\u0646\u062F\u0633 \u0648\u0639\u0627\u0644\u0645 \u062D\u0627\u0633\u0648\u0628 \u0625\u0646\u0643\u0644\u064A\u0632\u064A\u060C \u064A\u0639\u0631\u0641 \u0628\u0633\u0628\u0628 \u0627\u062E\u062A\u0631\u0627\u0639\u0647 \u0644\u0644\u0634\u0628\u0643\u0629 \u0627\u0644\u0639\u0646\u0643\u0628\u0648\u062A\u064A\u0629 \u0627\u0644\u0639\u0627\u0644\u0645\u064A\u0629\u060C \u0648\u0627\u0644\u062A\u064A \u062A\u064F\u0639\u0631\u0641 \u0628\u0627\u0644\u0648\u064A\u0628. \u0648\u0647\u0648 \u0627\u0644\u0622\u0646 \u0623\u0633\u062A\u0627\u0630 \u0641\u064A \u0639\u0644\u0648\u0645 \u0627\u0644\u062D\u0627\u0633\u0648\u0628 \u0641\u064A \u062C\u0627\u0645\u0639\u0629 \u0623\u0648\u0643\u0633\u0641\u0648\u0631\u062F \u0641\u064A \u0627\u0644\u0645\u0645\u0644\u0643\u0629 \u0627\u0644\u0645\u062A\u062D\u062F\u0629. \u0642\u062F\u0651\u0645 \u0627\u0642\u062A\u0631\u0627\u062D\u0627\u064B \u0644\u0646\u0638\u0627\u0645 \u0625\u062F\u0627\u0631\u0629 \u0645\u0639\u0644\u0648\u0645\u0627\u062A \u0641\u064A \u0634\u0647\u0631 \u0645\u0627\u0631\u0633 \u0645\u0646 \u0627\u0644\u0639\u0627\u0645 1989\u0645\u060C \u0648\u0646\u062C\u062D \u0641\u064A \u0645\u0646\u062A\u0635\u0641 \u0634\u0647\u0631 \u0646\u0648\u0641\u0645\u0628\u0631 \u0645\u0646 \u0646\u0641\u0633 \u0627\u0644\u0639\u0627\u0645 \u0641\u064A \u062A\u0646\u0641\u064A\u0630 \u0623\u0648\u0644 \u0627\u062A\u0635\u0627\u0644 \u0646\u0627\u062C\u062D \u0628\u064A\u0646 \u0639\u0645\u064A\u0644 \u0648\u0645\u064F\u062E\u062F\u0651\u0645 \u0644\u0628\u0631\u0648\u062A\u0643\u0648\u0644 \u0646\u0642\u0644 \u0627\u0644\u0646\u0635 \u0627\u0644\u0641\u0627\u0626\u0642 \u0648\u0641\u0642 \u0646\u0645\u0648\u0630\u062C \u0637\u0644\u0628 \u0627\u0644\u062E\u062F\u0645\u0629."@ar ,
+		"Sir Timothy John \"Tim\" Berners-Lee, KBE (TimBL atau TBL) (lahir di London, Inggris, 8 Juni 1955; umur 64 tahun) adalah penemu World Wide Web dan ketua World Wide Web Consortium, yang mengatur perkembangannya. Pada 1980, ketika masih seorang kontraktor bebas di CERN, Berners-Lee mengajukan sebuah proyek yang berbasiskan konsep hiperteks (hypertext) untuk memfasilitasi pembagian dan pembaharuan informasi di antara para peneliti. Dengan bantuan dari  dia menciptakan sistem prototipe bernama ."@in ,
+		"Timothy Berners-Lee (ur. 8 czerwca 1955 w Londynie) \u2013 brytyjski fizyk i programista, wsp\u00F3\u0142tw\u00F3rca i jeden z pionier\u00F3w us\u0142ugi WWW, jednej z najpopularniejszych us\u0142ug internetowych. Od 1994 jest przewodnicz\u0105cym W3C."@pl ,
+		"Sir Timothy John \"Tim\" Berners-Lee, KBE, FRS, f\u00F6dd 8 juni 1955 i London i England, \u00E4r skaparen av World Wide Web, en teknik som skapade f\u00F6ruts\u00E4ttningar f\u00F6r en bredare anv\u00E4ndning av Internet, och chef f\u00F6r World Wide Web Consortium."@sv ,
+		"Timothy \"Tim\" John Berners-Lee, KBE,\u200B OM,\u200B FRS,\u200B FREng,\u200B FRSA,\u200B (Londres, Reino Unido, 8 de junio de 1955), conocido como Tim Berners-Lee, es un cient\u00EDfico de la computaci\u00F3n brit\u00E1nica, conocido por ser el padre de la World Wide Web. Estableci\u00F3 la primera comunicaci\u00F3n entre un cliente y un servidor usando el protocolo HTTP en noviembre de 1989. En octubre de 1994 fund\u00F3 el Consorcio de la World Wide Web (W3C) con sede en el MIT, para supervisar y estandarizar el desarrollo de las tecnolog\u00EDas sobre las que se fundamenta la Web y que permiten el funcionamiento de Internet."@es ,
+		"Sir Timothy \u201CTim\u201D John Berners-Lee, OM, KBE (TimBL edo TBL) 1955ko ekainaren 8an jaio zen Londresen, Erresuma Batua, 1976. urtean Oxford Unibertsitateko Queen\u2019s College-en Fisikan lizentziatu zen. Web-aren aita dela kontsideratzen da. Berners-Leek aipatutako ideia askok Ted Nelsonek eta Vannevar Bushek proposatutako  aurki ditzakegu."@eu ,
+		"Sir Timothy John \u00ABTim\u00BB Berners-Lee, (Londres, 8 de juny de 1955) \u00E9s un enginyer inform\u00E0tic brit\u00E0nic i professor del Massachusetts Institute of Technology. Pot portar els seg\u00FCents t\u00EDtols honor\u00EDfics darrere el cognom: EM (Orde del M\u00E8rit), KBE (Orde de l'Imperi Brit\u00E0nic), FRS (Fellow of the Royal Society)."@ca ,
+		"Is eola\u00ED r\u00EDomhaireachta \u00E9 an Ridire Timothy \"Tim\" John Berners-Lee n\u00F3 TimBL (a rugadh ar an 8 Meitheamh 1955). Deirtear gurb \u00E9 \"athair\" an Ghr\u00E9as\u00E1in Domhanda. T\u00E1 s\u00E9 ina sti\u00FArth\u00F3ir ar an World Wide Web Consortium (W3C), an eagra\u00EDocht a riala\u00EDonn forbairt an ghr\u00E9as\u00E1in. Rugadh i Londain \u00E9, agus ba mhatamaiticeoir\u00ED iad a thuismitheoir\u00ED. D'fhreastal s\u00E9 ar Ollscoil Oxford. I 1994, bhunaigh Berners-Lee an World Wide Web Consortium (W3C) ag an Massachusetts Institute of Technology le haghaidh caighde\u00E1in a chruth\u00FA don gr\u00E9as\u00E1n."@ga ,
+		"Sir Timothy John Berners-Lee (Londra, 8 giugno 1955) \u00E8 un informatico britannico, insignito del premio Turing 2016, co-inventore insieme a Robert Cailliau del World Wide Web."@it ,
+		"Sir Timothy John Berners-Lee, OM, KBE, FRS, FRSA (* 8. Juni 1955 in London) ist ein britischer Physiker und Informatiker. Er ist der Erfinder von HTML (Hypertext Markup Language) und der Begr\u00FCnder des World Wide Web. Heute steht er dem World Wide Web Consortium (W3C) vor, ist Professor am Massachusetts Institute of Technology (MIT) und hat seit 2016 einen Lehrstuhl an der Universit\u00E4t Oxford."@de ,
+		"Timothy John Berners-Lee KBE, OM, FRS (TimBL ou TBL) (Londres, 8 de junho de 1955) \u00E9 um f\u00EDsico brit\u00E2nico, cientista da computa\u00E7\u00E3o e professor do MIT. \u00C9 o criador da World Wide Web, tendo feito a primeira proposta para sua cria\u00E7\u00E3o a 12 de mar\u00E7o de 1989. Em 25 de dezembro de 1990, com a ajuda de Robert Cailliau e um jovem estudante do CERN, implementou a primeira comunica\u00E7\u00E3o bem-sucedida entre um cliente HTTP e o servidor atrav\u00E9s da internet. Em 2004, Timothy venceu o Millennium Technology Prize, o que lhe rendeu um milh\u00E3o de euros."@pt ,
+		"Timothy John Berners-Lee, n\u00E9 le 8 juin 1955 \u00E0 Londres, est un informaticien britannique, principal inventeur du World Wide Web (WWW) au tournant des ann\u00E9es 1990 lors de ses travaux au CERN. En juillet 2004, il est fait chevalier par la reine \u00C9lisabeth II pour ce travail et son nom officiel devient Sir Timothy John Berners-Lee. Depuis 1994, il pr\u00E9side le World Wide Web Consortium (W3C), organisme qu'il a fond\u00E9. Il est laur\u00E9at du prix Turing 2016."@fr ,
+		"\u0421\u0435\u0440 \u0422\u0456\u043C\u043E\u0442\u0456 \u0414\u0436\u043E\u043D \u0411\u0435\u0301\u0440\u043D\u0435\u0440\u0441-\u041B\u0456 (\u0430\u043D\u0433\u043B. Sir Timothy John \u00ABTim\u00BB Berners-Lee; \u043D\u0430\u0440. 8 \u0447\u0435\u0440\u0432\u043D\u044F 1955, \u041B\u043E\u043D\u0434\u043E\u043D) \u2014 \u0431\u0440\u0438\u0442\u0430\u043D\u0441\u044C\u043A\u0438\u0439 \u0441\u043F\u0435\u0446\u0456\u0430\u043B\u0456\u0441\u0442 \u0437 \u0456\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0438, \u0442\u0432\u043E\u0440\u0435\u0446\u044C HTTP, HTML, URI \u0456 \u0430\u0432\u0442\u043E\u0440 \u0456\u043D\u0448\u0438\u0445 \u0440\u043E\u0437\u0440\u043E\u0431\u043E\u043A \u0432 \u0433\u0430\u043B\u0443\u0437\u0456 \u0456\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0456\u0439\u043D\u0438\u0445 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0439, \u0437\u0430\u0441\u043D\u043E\u0432\u043D\u0438\u043A \u0442\u0430 \u0433\u043E\u043B\u043E\u0432\u0430 \u043A\u043E\u043D\u0441\u043E\u0440\u0446\u0456\u0443\u043C\u0443 W3C, \u0433\u043E\u043B\u043E\u0432\u043D\u0438\u0439 \u0440\u043E\u0437\u0440\u043E\u0431\u043D\u0438\u043A \u0412\u0441\u0435\u0441\u0432\u0456\u0442\u043D\u044C\u043E\u0457 \u043F\u0430\u0432\u0443\u0442\u0438\u043D\u0438 (\u0441\u043F\u0456\u043B\u044C\u043D\u043E \u0437 \u0420\u043E\u0431\u0435\u0440\u0442\u043E\u043C \u041A\u0430\u0439\u043E), \u0430\u0432\u0442\u043E\u0440 \u043A\u043E\u043D\u0446\u0435\u043F\u0446\u0456\u0457 \u0441\u0435\u043C\u0430\u043D\u0442\u0438\u0447\u043D\u043E\u0457 \u043F\u0430\u0432\u0443\u0442\u0438\u043D\u0438. \u041B\u0430\u0443\u0440\u0435\u0430\u0442 \u043F\u0440\u0435\u043C\u0456\u0457 \u0422\u044E\u0440\u0456\u043D\u0433\u0430 2016 \u0440\u043E\u043A\u0443."@uk ,
+		"Timothy \u201ETim\u201C John Berners-Lee (* 8. \u010Dervna 1955 Lond\u00FDn) je tv\u016Frce World Wide Webu a \u0159editel konsorcia W3C, kter\u00E9 dohl\u00ED\u017E\u00ED na pokra\u010Duj\u00EDc\u00ED v\u00FDvoj webu. Narodil se v Lond\u00FDn\u011B ve Spojen\u00E9m kr\u00E1lovstv\u00ED Conwayovi Berners-Lee a Mary Lee Woods. Jeho rodi\u010De, oba matematici, byli spole\u010Dn\u011B zam\u011Bstn\u00E1ni v t\u00FDmu, kter\u00FD postavil jeden z prvn\u00EDch po\u010D\u00EDta\u010D\u016F, . Rodi\u010De ho u\u010Dili matematiku, kde mohli, dokonce i u ve\u010De\u0159e. Absolvoval Queen's College a Oxfordskou univerzitu."@cs ,
+		"\uD300 \uBC84\uB108\uC2A4\uB9AC \uACBD(\uC601\uC5B4: Sir Tim Berners-Lee, OM, KBE, FRS, 1955\uB144 6\uC6D4 8\uC77C ~ )\uC740 \uC601\uAD6D\uC758 \uCEF4\uD4E8\uD130 \uACFC\uD559\uC790\uC774\uB2E4. 1989\uB144 \uC6D4\uB4DC \uC640\uC774\uB4DC \uC6F9\uC758 \uD558\uC774\uD37C\uD14D\uC2A4\uD2B8 \uC2DC\uC2A4\uD15C\uC744 \uACE0\uC548\uD558\uC5EC \uAC1C\uBC1C\uD588\uB2E4. \uC778\uD130\uB137\uC758 \uAE30\uBC18\uC744 \uB2E6\uC740 \uC5EC\uB7EC \uACF5\uB85C\uB85C \uC6F9\uC758 \uC544\uBC84\uC9C0\uB77C\uACE0 \uBD88\uB9AC\uB294 \uC778\uBB3C \uC911 \uD558\uB098\uC774\uB2E4. URL, HTTP, HTML \uCD5C\uCD08 \uC124\uACC4\uB3C4 \uADF8\uAC00 \uD55C \uAC83\uC774\uB2E4. \uCC28\uC138\uB300 \uC6F9 \uAE30\uC220\uC778 \uC2DC\uB9E8\uD2F1 \uC6F9 \uAE30\uC220\uC758 \uD45C\uC900\uD654\uC5D0 \uD798\uC3DF\uACE0 \uC788\uB2E4."@ko ,
+		"\u8482\u83AB\u897F\u00B7\u7EA6\u7FF0\u00B7\u4F2F\u7EB3\u65AF-\u674E\u7235\u58EB\uFF0COM KBE FRS FREng FRSA FBCS\uFF08\u82F1\u8A9E\uFF1ASir Timothy John Berners-Lee\uFF0C1955\u5E746\u67088\u65E5\uFF0D\uFF09\uFF0C\u66B1\u7A31\u70BA\u8482\u59C6\u00B7\u4F2F\u7EB3\u65AF-\u674E\uFF08\u82F1\u8A9E\uFF1ATim Berners-Lee\uFF09\uFF0C\u82F1\u56FD\u8BA1\u7B97\u673A\u79D1\u5B66\u5BB6\u3002\u4ED6\u662F\u4E07\u7EF4\u7F51\u7684\u53D1\u660E\u8005\u30021990\u5E7412\u670825\u65E5\uFF0C\u4ED6\u6210\u529F\u5229\u7528\u7DB2\u969B\u7DB2\u8DEF\u5B9E\u73B0\u4E86\u8D85\u6587\u672C\u4F20\u8F93\u534F\u8BAE\u5BA2\u6236\u7AEF\u4E0E\u670D\u52A1\u5668\u7684\u7B2C\u4E00\u6B21\u901A\u8BAF\u3002 \u4F2F\u7EB3\u65AF-\u674E\u662F\u4E07\u7EF4\u7F51\u8054\u76DF\u7684\u4E3B\u5E2D\uFF0C\u4E3A\u5173\u6CE8\u4E07\u7EF4\u7F51\u53D1\u5C55\u800C\u521B\u529E\u7684\u7EC4\u7EC7\u3002\u4ED6\u4E5F\u662F\u7684\u521B\u529E\u4EBA\u3002\u4F2F\u7EB3\u65AF-\u674E\u8FD8\u662F\u9EBB\u7701\u7406\u5DE5\u5B66\u9662\u8BA1\u7B97\u673A\u79D1\u5B66\u53CA\u4EBA\u5DE5\u667A\u80FD\u5B9E\u9A8C\u5BA4\u521B\u529E\u4E3B\u5E2D\u53CA\u9AD8\u7EA7\u7814\u7A76\u5458\u3002\u540C\u65F6\uFF0C\u4F2F\u7EB3\u65AF-\u674E\u662F\u7F51\u9875\u79D1\u5B66\u7814\u7A76\u5021\u8BAE\u4F1A\u7684\u603B\u76D1\u3002\u6700\u540E\uFF0C\u4ED6\u662F\u9EBB\u7701\u7406\u5DE5\u5B66\u9662\u96C6\u9AD4\u667A\u6167\u4E2D\u5FC3\u54A8\u8BE2\u59D4\u5458\u4F1A\u6210\u5458\u30022011\u5E74\uFF0C\u4ED6\u88AB\u4EFB\u547D\u70BA\u798F\u7279\u57FA\u91D1\u6703\u7684\u8463\u4E8B\u6703\u6210\u54E1\u3002 2004\u5E74\uFF0C\u82F1\u5973\u7687\u4F0A\u4E3D\u838E\u767D\u4E8C\u4E16\u5411\u4F2F\u7EB3\u65AF-\u674E\u9881\u53D1\u5927\u82F1\u5E1D\u56FD\u7235\u7D1A\u53F8\u4EE4\u52CB\u7AE0 \u30022009\u5E744\u6708\uFF0C\u4ED6\u83B7\u9009\u4E3A\u7F8E\u56FD\u56FD\u5BB6\u79D1\u5B66\u9662\u5916\u7C4D\u9662\u58EB\u3002\u4ED6\u88AB\u300A\u6642\u4EE3\u300B\u96DC\u8A8C\u5217\u70BA\u6642\u4EE3100\u4EBA\uFF1A\u672C\u4E16\u7D00\u6700\u91CD\u8981\u7684\u4EBA\u7269\u3002\u57282012\u5E74\u590F\u5B63\u5967\u6797\u5339\u514B\u904B\u52D5\u6703\u958B\u5E55\u5178\u79AE\u4E0A\uFF0C\u4ED6\u83B7\u5F97\u4E86\u201C\u4E07\u7EF4\u7F51\u53D1\u660E\u8005\u201D\u7684\u7F8E\u8A89\u3002\u4F2F\u7EB3\u65AF-\u674E\u672C\u4EBA\u4E5F\u53C2\u4E0E\u4E86\u958B\u5E55\u5178\u79AE\uFF0C\u5728\u4E00\u53F0NeXT\u8BA1\u7B97\u673A\u524D\u5DE5\u4F5C\u3002\u4ED6\u5728Twitter\u4E0A\u53D1\u8868\u6D88\u606F\u8BF4\uFF1A\u201C\u8FD9\u662F\u7ED9\u6240\u6709\u4EBA\u7684\u201D\uFF0C\u4F53\u80B2\u9986\u5185\u7684\u6DB2\u6676\u663E\u793A\u5668\u5149\u7BA1\u968F\u5373\u663E\u793A\u51FA\u6587\u5B57\u6765\u30022017\u5E74\uFF0C\u4ED6\u56E0\u201C\u53D1\u660E\u4E86\u4E07\u7EF4\u7F51\u3001\u7B2C\u4E00\u4E2A\u6D4F\u89C8\u5668\u548C\u4F7F\u5F97\u4E07\u7EF4\u7F51\u5F97\u4EE5\u6269\u5C55\u7684\u57FA\u7840\u534F\u8BAE\u53CA\u7B97\u6CD5\u201D\u800C\u83B7\u5F972016\u5E74\u5EA6\u7684\u56FE\u7075\u5956\u3002"@zh ,
+		"Timothy John (Tim) Berners-Lee (Londen, 8 juni 1955) is samen met zijn toenmalig manager, de Belg Robert Cailliau, de bedenker en grondlegger van het world wide web of wereldwijde web (www). Hieraan werkte hij toen hij consultant-software-engineer bij het CERN in Zwitserland was, van juni tot en met december 1990. Als directeur van het World Wide Web Consortium (W3C) houdt hij toezicht op de ontwikkeling van webtalen en -protocollen als HTML, XML, CSS en HTTP."@nl ,
+		"Sir Timothy John Berners-Lee  (born 8 June 1955), also known as TimBL, is an English engineer and computer scientist best known as the inventor of the World Wide Web. He is a Professorial Fellow of Computer Science at the University of Oxford and a professor at the Massachusetts Institute of Technology (MIT). Berners-Lee proposed an information management system on 12 March 1989, then implemented the first successful communication between a Hypertext Transfer Protocol (HTTP) client and server via the internet in mid-November."@en ,
+		"\u039F \u03A3\u03B5\u03C1 \u03A4\u03AF\u03BC\u03BF\u03B8\u03B9 \u03A4\u03B6\u03BF\u03BD \u039C\u03C0\u03AD\u03C1\u03BD\u03B5\u03C1\u03C2 \u039B\u03B9 (Sir Timothy John Berners-Lee, 8 \u0399\u03BF\u03C5\u03BD\u03AF\u03BF\u03C5 1955), \u03BC\u03AD\u03BB\u03BF\u03C2 \u03C4\u03BF\u03C5 \u03A4\u03AC\u03B3\u03BC\u03B1\u03C4\u03BF\u03C2 \u03C4\u03B7\u03C2 \u0391\u03BE\u03AF\u03B1\u03C2, \u0399\u03C0\u03C0\u03CC\u03C4\u03B7\u03C2-\u0394\u03B9\u03BF\u03B9\u03BA\u03B7\u03C4\u03AE\u03C2 \u03C4\u03BF\u03C5 \u03A4\u03AC\u03B3\u03BC\u03B1\u03C4\u03BF\u03C2 \u03C4\u03B7\u03C2 \u0392\u03C1\u03B5\u03C4\u03B1\u03BD\u03B9\u03BA\u03AE\u03C2 \u0391\u03C5\u03C4\u03BF\u03BA\u03C1\u03B1\u03C4\u03BF\u03C1\u03AF\u03B1\u03C2, \u039C\u03AD\u03BB\u03BF\u03C2 \u03C4\u03B7\u03C2 \u0392\u03B1\u03C3\u03B9\u03BB\u03B9\u03BA\u03AE\u03C2 \u0395\u03C4\u03B1\u03B9\u03C1\u03B5\u03AF\u03B1\u03C2, \u039C\u03AD\u03BB\u03BF\u03C2 \u03C4\u03B7\u03C2 \u0392\u03B1\u03C3\u03B9\u03BB\u03B9\u03BA\u03AE\u03C2 \u0395\u03C4\u03B1\u03B9\u03C1\u03B5\u03AF\u03B1\u03C2 \u039C\u03B7\u03C7\u03B1\u03BD\u03B9\u03BA\u03AE\u03C2, \u039C\u03AD\u03BB\u03BF\u03C2 \u03C4\u03B7\u03C2 \u0392\u03B1\u03C3\u03B9\u03BB\u03B9\u03BA\u03AE\u03C2 \u0395\u03C4\u03B1\u03B9\u03C1\u03B5\u03AF\u03B1\u03C2 \u03A4\u03B5\u03C7\u03BD\u03CE\u03BD \u03B5\u03AF\u03BD\u03B1\u03B9 \u03BF \u03B5\u03C6\u03B5\u03C5\u03C1\u03AD\u03C4\u03B7\u03C2 \u03C4\u03BF\u03C5 \u03A0\u03B1\u03B3\u03BA\u03CC\u03C3\u03BC\u03B9\u03BF\u03C5 \u0399\u03C3\u03C4\u03BF\u03CD (World Wide Web), \u03B4\u03B9\u03B5\u03C5\u03B8\u03C5\u03BD\u03C4\u03AE\u03C2 \u03C4\u03B7\u03C2  \u03B7 \u03BF\u03C0\u03BF\u03AF\u03B1 \u03B5\u03C0\u03B9\u03C4\u03B7\u03C1\u03B5\u03AF \u03C4\u03B7 \u03C3\u03C5\u03BD\u03B5\u03C7\u03AE \u03B1\u03BD\u03AC\u03C0\u03C4\u03C5\u03BE\u03AE \u03C4\u03BF\u03C5 \u03BA\u03B1\u03B9 \u03B5\u03C1\u03B5\u03C5\u03BD\u03B7\u03C4\u03AE\u03C2 \u03BA\u03B1\u03B9 \u03BA\u03AC\u03C4\u03BF\u03C7\u03BF\u03C2 \u03C4\u03B7\u03C2 \u03AD\u03B4\u03C1\u03B1\u03C2 3Com \u03C3\u03C4\u03BF \u0395\u03C1\u03B3\u03B1\u03C3\u03C4\u03AE\u03C1\u03B9\u03BF \u03A0\u03BB\u03B7\u03C1\u03BF\u03C6\u03BF\u03C1\u03B9\u03BA\u03AE\u03C2 \u03BA\u03B1\u03B9 \u03A4\u03B5\u03C7\u03BD\u03B7\u03C4\u03AE\u03C2 \u039D\u03BF\u03B7\u03BC\u03BF\u03C3\u03CD\u03BD\u03B7\u03C2 (CSAIL) \u03C4\u03BF\u03C5 MIT. \u0395\u03AF\u03BD\u03B1\u03B9 \u03BF \u03B4\u03B9\u03B5\u03C5\u03B8\u03C5\u03BD\u03C4\u03AE\u03C2 \u03C4\u03BF\u03C5 \u039A\u03BF\u03BD\u03C3\u03CC\u03C1\u03C4\u03C3\u03B9\u03BF\u03C5\u03BC \u03C4\u03BF\u03C5 \u03A0\u03B1\u03B3\u03BA\u03CC\u03C3\u03BC\u03B9\u03BF\u03C5 \u0399\u03C3\u03C4\u03BF\u03CD \u03C3\u03C4\u03BF \u0394\u03B9\u03B1\u03B4\u03AF\u03BA\u03C4\u03C5\u03BF \u03BA\u03B1\u03B9 \u039A\u03B1\u03B8\u03B7\u03B3\u03B7\u03C4\u03AE\u03C2 \u03C3\u03C4\u03BF \u03A4\u03BC\u03AE\u03BC\u03B1 \u0397\u03BB\u03B5\u03BA\u03C4\u03C1\u03BF\u03BD\u03B9\u03BA\u03CE\u03BD \u03BA\u03B1\u03B9 \u0395\u03C0\u03B9\u03C3\u03C4\u03AE\u03BC\u03B7\u03C2 \u03A5\u03C0\u03BF\u03BB\u03BF\u03B3\u03B9\u03C3\u03C4\u03CE\u03BD \u03C4\u03BF\u03C5 \u03A3\u03B1\u03BF\u03C5\u03B8\u03AC\u03BC\u03C0\u03C4\u03BF\u03BD (\u0397\u03BD. \u0392\u03B1\u03C3\u03AF\u03BB\u03B5\u03B9\u03BF). \u03A4\u03BF 2016 \u03C4\u03BF\u03C5 \u03B1\u03C0\u03BF\u03BD\u03B5\u03BC\u03AE\u03B8\u03B7\u03BA\u03B5 \u03C4\u03BF \u03B2\u03C1\u03B1\u03B2\u03B5\u03AF\u03BF \u03A4\u03BF\u03CD\u03C1\u03B9\u03BD\u03B3\u03BA."@el ,
+		"\u0421\u044D\u0440 \u0422\u0438\u043C\u043E\u0442\u0438 \u0414\u0436\u043E\u043D \u0411\u0435\u0301\u0440\u043D\u0435\u0440\u0441-\u041B\u0438 OM (\u0430\u043D\u0433\u043B. Sir Timothy John \u00ABTim\u00BB Berners-Lee; \u0440\u043E\u0434. 8 \u0438\u044E\u043D\u044F 1955 \u0433\u043E\u0434\u0430, \u041B\u043E\u043D\u0434\u043E\u043D) \u2014 \u0441\u043E\u0437\u0434\u0430\u0442\u0435\u043B\u044C URI, URL, HTTP, HTML \u0438 \u0412\u0441\u0435\u043C\u0438\u0440\u043D\u043E\u0439 \u043F\u0430\u0443\u0442\u0438\u043D\u044B (\u0441\u043E\u0432\u043C\u0435\u0441\u0442\u043D\u043E \u0441 \u0420\u043E\u0431\u0435\u0440\u0442\u043E\u043C \u041A\u0430\u0439\u043E) \u0438 \u0434\u0435\u0439\u0441\u0442\u0432\u0443\u044E\u0449\u0438\u0439 \u0433\u043B\u0430\u0432\u0430 \u041A\u043E\u043D\u0441\u043E\u0440\u0446\u0438\u0443\u043C\u0430 \u0412\u0441\u0435\u043C\u0438\u0440\u043D\u043E\u0439 \u043F\u0430\u0443\u0442\u0438\u043D\u044B. \u0410\u0432\u0442\u043E\u0440 \u043A\u043E\u043D\u0446\u0435\u043F\u0446\u0438\u0438 \u0441\u0435\u043C\u0430\u043D\u0442\u0438\u0447\u0435\u0441\u043A\u043E\u0439 \u043F\u0430\u0443\u0442\u0438\u043D\u044B. \u0410\u0432\u0442\u043E\u0440 \u043C\u043D\u043E\u0436\u0435\u0441\u0442\u0432\u0430 \u0434\u0440\u0443\u0433\u0438\u0445 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043E\u043A \u0432 \u043E\u0431\u043B\u0430\u0441\u0442\u0438 \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u043E\u043D\u043D\u044B\u0445 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0439."@ru ;
+	foaf:name	"Tim Berners-Lee"@en ;
+	foaf:depiction	<http://commons.wikimedia.org/wiki/Special:FilePath/Tim_Berners-Lee-Knight-crop.jpg> ;
+	foaf:isPrimaryTopicOf	wikipedia-en:Tim_Berners-Lee .
+@prefix dct:	<http://purl.org/dc/terms/> .
+@prefix dbc:	<http://dbpedia.org/resource/Category:> .
+dbr:Tim_Berners-Lee	dct:subject	dbc:Fellows_of_the_Royal_Society ,
+		dbc:Fellows_of_the_Royal_Society_of_Arts ,
+		dbc:English_Unitarians ,
+		<http://dbpedia.org/resource/Category:1955_births> ,
+		dbc:MacArthur_Fellows ,
+		dbc:English_computer_scientists ,
+		dbc:Former_Anglicans ,
+		dbc:UNESCO_Niels_Bohr_Medal_recipients ,
+		dbc:People_associated_with_CERN ,
+		dbc:Fellows_of_the_British_Computer_Society ,
+		dbc:English_inventors ,
+		dbc:Royal_Medal_winners ,
+		dbc:Internet_pioneers ,
+		dbc:Foreign_associates_of_the_National_Academy_of_Engineering ,
+		<http://dbpedia.org/resource/Category:Recipients_of_the_Order_of_the_Cross_of_Terra_Mariana,_1st_Class> ,
+		dbc:English_expatriates_in_the_United_States ,
+		dbc:Foreign_associates_of_the_National_Academy_of_Sciences ,
+		dbc:Members_of_the_Order_of_Merit ,
+		<http://dbpedia.org/resource/Category:Fellows_of_Christ_Church,_Oxford> ,
+		dbc:Fellows_of_the_Royal_Academy_of_Engineering ,
+		dbc:World_Wide_Web_Consortium ,
+		dbc:Tim_Berners-Lee ,
+		dbc:Living_people ,
+		<http://dbpedia.org/resource/Category:Fellows_of_The_Queen\u0027s_College,_Oxford> ,
+		<http://dbpedia.org/resource/Category:Alumni_of_The_Queen\u0027s_College,_Oxford> ,
+		dbc:Massachusetts_Institute_of_Technology_faculty ,
+		dbc:Turing_Award_laureates ,
+		dbc:Webby_Award_winners ,
+		dbc:Hypertext_Transfer_Protocol ,
+		<http://dbpedia.org/resource/Category:Members_of_the_Department_of_Computer_Science,_University_of_Oxford> ,
+		dbc:Semantic_Web_people ,
+		dbc:Unitarian_Universalists ,
+		dbc:Academics_of_the_University_of_Southampton ,
+		<http://dbpedia.org/resource/Category:People_from_Barnes,_London> ,
+		dbc:People_educated_at_Emanuel_School ,
+		dbc:Freemen_of_the_City_of_London ,
+		dbc:Fellows_of_the_American_Academy_of_Arts_and_Sciences ,
+		dbc:Knights_Commander_of_the_Order_of_the_British_Empire .
+@prefix dbpedia-sw:	<http://sw.dbpedia.org/resource/> .
+dbr:Tim_Berners-Lee	owl:sameAs	dbpedia-sw:Tim_Berners-Lee .
+@prefix dbpedia-oc:	<http://oc.dbpedia.org/resource/> .
+dbr:Tim_Berners-Lee	owl:sameAs	dbpedia-oc:Tim_Berners-Lee ,
+		<http://ru.dbpedia.org/resource/\u0411\u0435\u0440\u043D\u0435\u0440\u0441-\u041B\u0438,_\u0422\u0438\u043C> .
+@prefix dbpedia-bar:	<http://bar.dbpedia.org/resource/> .
+dbr:Tim_Berners-Lee	owl:sameAs	dbpedia-bar:Tim_Berners-Lee .
+@prefix ns18:	<http://bs.dbpedia.org/resource/> .
+dbr:Tim_Berners-Lee	owl:sameAs	ns18:Tim_Berners-Lee .
+@prefix dbpedia-ga:	<http://ga.dbpedia.org/resource/> .
+dbr:Tim_Berners-Lee	owl:sameAs	dbpedia-ga:Tim_Berners-Lee .
+@prefix ns20:	<http://data.europa.eu/euodp/jrc-names/> .
+dbr:Tim_Berners-Lee	owl:sameAs	ns20:Tim_Berners-Lee .
+@prefix dbpedia-ms:	<http://ms.dbpedia.org/resource/> .
+dbr:Tim_Berners-Lee	owl:sameAs	dbpedia-ms:Tim_Berners-Lee .
+@prefix ns22:	<http://ia.dbpedia.org/resource/> .
+dbr:Tim_Berners-Lee	owl:sameAs	ns22:Tim_Berners-Lee .
+@prefix dbpedia-vi:	<http://vi.dbpedia.org/resource/> .
+dbr:Tim_Berners-Lee	owl:sameAs	dbpedia-vi:Tim_Berners-Lee .
+@prefix dbpedia-simple:	<http://simple.dbpedia.org/resource/> .
+dbr:Tim_Berners-Lee	owl:sameAs	dbpedia-simple:Tim_Berners-Lee .
+@prefix dbpedia-it:	<http://it.dbpedia.org/resource/> .
+dbr:Tim_Berners-Lee	owl:sameAs	dbpedia-it:Tim_Berners-Lee .
+@prefix dbpedia-sh:	<http://sh.dbpedia.org/resource/> .
+dbr:Tim_Berners-Lee	owl:sameAs	dbpedia-sh:Tim_Berners-Lee ,
+		<http://ko.dbpedia.org/resource/\uD300_\uBC84\uB108\uC2A4\uB9AC> ,
+		<http://ba.dbpedia.org/resource/\u0422\u0438\u043C_\u0411\u0435\u0440\u043D\u0435\u0440\u0441-\u041B\u0438> .
+@prefix dbpedia-af:	<http://af.dbpedia.org/resource/> .
+dbr:Tim_Berners-Lee	owl:sameAs	dbpedia-af:Tim_Berners-Lee .
+@prefix dbpedia-eu:	<http://eu.dbpedia.org/resource/> .
+dbr:Tim_Berners-Lee	owl:sameAs	dbpedia-eu:Tim_Berners-Lee .
+@prefix dbpedia-hu:	<http://hu.dbpedia.org/resource/> .
+dbr:Tim_Berners-Lee	owl:sameAs	dbpedia-hu:Tim_Berners-Lee .
+@prefix ns30:	<http://sw.cyc.com/concept/> .
+dbr:Tim_Berners-Lee	owl:sameAs	ns30:Mx4r3THFqbCtSyOa3bvfYXUhWg ,
+		<http://mr.dbpedia.org/resource/\u091F\u093F\u092E_\u092C\u0930\u094D\u0928\u0930\u094D\u0938-\u0932\u0940> .
+@prefix dbpedia-pt:	<http://pt.dbpedia.org/resource/> .
+dbr:Tim_Berners-Lee	owl:sameAs	dbpedia-pt:Tim_Berners-Lee ,
+		<https://global.dbpedia.org/id/4xr7U> .
+@prefix ns32:	<http://li.dbpedia.org/resource/> .
+dbr:Tim_Berners-Lee	owl:sameAs	ns32:Tim_Berners-Lee .
+@prefix dbpedia-tr:	<http://tr.dbpedia.org/resource/> .
+dbr:Tim_Berners-Lee	owl:sameAs	dbpedia-tr:Tim_Berners-Lee ,
+		<http://be.dbpedia.org/resource/\u0426\u0456\u043C_\u0411\u0435\u0440\u043D\u0435\u0440\u0441-\u041B\u0456> ,
+		dbr:Tim_Berners-Lee .
+@prefix dbpedia-cy:	<http://cy.dbpedia.org/resource/> .
+dbr:Tim_Berners-Lee	owl:sameAs	dbpedia-cy:Tim_Berners-Lee ,
+		<http://yi.dbpedia.org/resource/\u05D8\u05D9\u05DD_\u05D1\u05E2\u05E8\u05E0\u05E2\u05E8\u05E1-\u05DC\u05D9> .
+@prefix dbpedia-gd:	<http://gd.dbpedia.org/resource/> .
+dbr:Tim_Berners-Lee	owl:sameAs	dbpedia-gd:Tim_Berners-Lee ,
+		<http://kn.dbpedia.org/resource/\u0C9F\u0CBF\u0CAE\u0CCD_\u0CAC\u0CB0\u0CCD\u0CA8\u0CB0\u0CCD\u0CB8\u0CCD_\u0CB2\u0CC0> ,
+		<http://lv.dbpedia.org/resource/Tims_B\u0113rnerss-L\u012B> .
+@prefix dbpedia-et:	<http://et.dbpedia.org/resource/> .
+dbr:Tim_Berners-Lee	owl:sameAs	dbpedia-et:Tim_Berners-Lee .
+@prefix ns37:	<http://www.bbc.co.uk/things/2166d5db-3cd1-4d8a-a066-bddb220ef216#> .
+dbr:Tim_Berners-Lee	owl:sameAs	ns37:id ,
+		<http://azb.dbpedia.org/resource/\u062A\u06CC\u0645_\u0628\u0631\u0646\u0631\u0632_\u0644\u06CC> .
+@prefix dbpedia-pms:	<http://pms.dbpedia.org/resource/> .
+dbr:Tim_Berners-Lee	owl:sameAs	dbpedia-pms:Tim_Berners-Lee ,
+		<http://sah.dbpedia.org/resource/\u0422\u0438\u043C_\u0411\u0435\u0440\u043D\u0435\u0440\u0441-\u041B\u0438> ,
+		<http://ckb.dbpedia.org/resource/\u062A\u06CC\u0645_\u0628\u06CE\u0631\u0646\u06D5\u0631\u0632_\u0644\u06CC> .
+@prefix dbpedia-no:	<http://no.dbpedia.org/resource/> .
+dbr:Tim_Berners-Lee	owl:sameAs	dbpedia-no:Tim_Berners-Lee ,
+		<http://pnb.dbpedia.org/resource/\u0679\u0645_\u0628\u0631\u0646\u0631\u0632_\u0644\u06CC> .
+@prefix dbpedia-fr:	<http://fr.dbpedia.org/resource/> .
+dbr:Tim_Berners-Lee	owl:sameAs	dbpedia-fr:Tim_Berners-Lee .
+@prefix dbpedia-sl:	<http://sl.dbpedia.org/resource/> .
+dbr:Tim_Berners-Lee	owl:sameAs	dbpedia-sl:Tim_Berners-Lee .
+@prefix dbpedia-hr:	<http://hr.dbpedia.org/resource/> .
+dbr:Tim_Berners-Lee	owl:sameAs	dbpedia-hr:Tim_Berners-Lee .
+@prefix dbpedia-ca:	<http://ca.dbpedia.org/resource/> .
+dbr:Tim_Berners-Lee	owl:sameAs	dbpedia-ca:Tim_Berners-Lee ,
+		<http://rdf.freebase.com/ns/m.07d5b> ,
+		<http://viaf.org/viaf/85312226> .
+@prefix ns44:	<http://mg.dbpedia.org/resource/> .
+dbr:Tim_Berners-Lee	owl:sameAs	ns44:Tim_Berners-Lee .
+@prefix dbpedia-yo:	<http://yo.dbpedia.org/resource/> .
+dbr:Tim_Berners-Lee	owl:sameAs	dbpedia-yo:Tim_Berners-Lee ,
+		wikidata:Q80 ,
+		<http://el.dbpedia.org/resource/\u03A4\u03B9\u03BC_\u039C\u03C0\u03AD\u03C1\u03BD\u03B5\u03C1\u03C2_\u039B\u03B9> ,
+		<http://te.dbpedia.org/resource/\u0C1F\u0C3F\u0C2E\u0C4D_\u0C2C\u0C46\u0C30\u0C4D\u0C28\u0C30\u0C4D\u0C38\u0C4D_\u0C32\u0C40> ,
+		<http://bg.dbpedia.org/resource/\u0422\u0438\u043C_\u0411\u044A\u0440\u043D\u044A\u0440\u0441-\u041B\u0438\u0439> ,
+		<http://am.dbpedia.org/resource/\u1272\u121D_\u1263\u122D\u1290\u122D\u1235_\u120A> ,
+		<http://www4.wiwiss.fu-berlin.de/dblp/resource/person/100007> .
+@prefix yago-res:	<http://yago-knowledge.org/resource/> .
+dbr:Tim_Berners-Lee	owl:sameAs	yago-res:Tim_Berners-Lee .
+@prefix dbpedia-fi:	<http://fi.dbpedia.org/resource/> .
+dbr:Tim_Berners-Lee	owl:sameAs	dbpedia-fi:Tim_Berners-Lee .
+@prefix ns48:	<http://min.dbpedia.org/resource/> .
+dbr:Tim_Berners-Lee	owl:sameAs	ns48:Tim_Berners-Lee .
+@prefix dbpedia-az:	<http://az.dbpedia.org/resource/> .
+dbr:Tim_Berners-Lee	owl:sameAs	dbpedia-az:Tim_Berners-Li .
+@prefix dbpedia-sv:	<http://sv.dbpedia.org/resource/> .
+dbr:Tim_Berners-Lee	owl:sameAs	dbpedia-sv:Tim_Berners-Lee .
+@prefix ns51:	<http://uz.dbpedia.org/resource/> .
+dbr:Tim_Berners-Lee	owl:sameAs	ns51:Tim_Berners-Lee .
+@prefix dbpedia-commons:	<http://commons.dbpedia.org/resource/> .
+dbr:Tim_Berners-Lee	owl:sameAs	dbpedia-commons:Tim_Berners-Lee .
+@prefix dbpedia-nn:	<http://nn.dbpedia.org/resource/> .
+dbr:Tim_Berners-Lee	owl:sameAs	dbpedia-nn:Tim_Berners-Lee ,
+		<http://uk.dbpedia.org/resource/\u0422\u0456\u043C_\u0411\u0435\u0440\u043D\u0435\u0440\u0441-\u041B\u0456> ,
+		<http://ja.dbpedia.org/resource/\u30C6\u30A3\u30E0\u30FB\u30D0\u30FC\u30CA\u30FC\u30BA\uFF1D\u30EA\u30FC> ,
+		<http://new.dbpedia.org/resource/\u091F\u093F\u092E_\u092C\u0930\u094D\u0928\u0930\u094D\u0938-\u0932\u0940> .
+@prefix dbpedia-cs:	<http://cs.dbpedia.org/resource/> .
+dbr:Tim_Berners-Lee	owl:sameAs	dbpedia-cs:Tim_Berners-Lee ,
+		<http://bn.dbpedia.org/resource/\u099F\u09BF\u09AE_\u09AC\u09BE\u09B0\u09CD\u09A8\u09BE\u09B0\u09CD\u09B8-\u09B2\u09BF> ,
+		<http://ce.dbpedia.org/resource/\u0411\u0435\u0440\u043D\u0435\u0440\u0441-\u041B\u0438,_\u0422\u0438\u043C> ,
+		<http://mk.dbpedia.org/resource/\u0422\u0438\u043C_\u0411\u0435\u0440\u043D\u0435\u0440\u0441-\u041B\u0438> .
+@prefix dbpedia-br:	<http://br.dbpedia.org/resource/> .
+dbr:Tim_Berners-Lee	owl:sameAs	dbpedia-br:Tim_Berners-Lee .
+@prefix ns56:	<http://ast.dbpedia.org/resource/> .
+dbr:Tim_Berners-Lee	owl:sameAs	ns56:Tim_Berners-Lee .
+@prefix dbpedia-de:	<http://de.dbpedia.org/resource/> .
+dbr:Tim_Berners-Lee	owl:sameAs	dbpedia-de:Tim_Berners-Lee ,
+		<http://pa.dbpedia.org/resource/\u0A1F\u0A3F\u0A2E_\u0A2C\u0A30\u0A28\u0A30\u0A38-\u0A32\u0A40> .
+@prefix dbpedia-la:	<http://la.dbpedia.org/resource/> .
+dbr:Tim_Berners-Lee	owl:sameAs	dbpedia-la:Timotheus_Ioannes_Berners-Lee .
+@prefix dbpedia-sq:	<http://sq.dbpedia.org/resource/> .
+dbr:Tim_Berners-Lee	owl:sameAs	dbpedia-sq:Tim_Berners-Lee .
+@prefix dbpedia-is:	<http://is.dbpedia.org/resource/> .
+dbr:Tim_Berners-Lee	owl:sameAs	dbpedia-is:Tim_Berners-Lee .
+@prefix dbpedia-gl:	<http://gl.dbpedia.org/resource/> .
+dbr:Tim_Berners-Lee	owl:sameAs	dbpedia-gl:Tim_Berners-Lee .
+@prefix dbpedia-an:	<http://an.dbpedia.org/resource/> .
+dbr:Tim_Berners-Lee	owl:sameAs	dbpedia-an:Tim_Berners-Lee ,
+		<http://he.dbpedia.org/resource/\u05D8\u05D9\u05DD_\u05D1\u05E8\u05E0\u05E8\u05E1-\u05DC\u05D9> .
+@prefix ns63:	<http://jv.dbpedia.org/resource/> .
+dbr:Tim_Berners-Lee	owl:sameAs	ns63:Tim_Berners-Lee ,
+		<http://zh.dbpedia.org/resource/\u8482\u59C6\u00B7\u4F2F\u7EB3\u65AF-\u674E> .
+@prefix dbpedia-lb:	<http://lb.dbpedia.org/resource/> .
+dbr:Tim_Berners-Lee	owl:sameAs	dbpedia-lb:Tim_Berners-Lee ,
+		<http://ar.dbpedia.org/resource/\u062A\u064A\u0645_\u0628\u064A\u0631\u0646\u0631\u0632_\u0644\u064A> .
+@prefix dbpedia-es:	<http://es.dbpedia.org/resource/> .
+dbr:Tim_Berners-Lee	owl:sameAs	dbpedia-es:Tim_Berners-Lee .
+@prefix ns66:	<http://sco.dbpedia.org/resource/> .
+dbr:Tim_Berners-Lee	owl:sameAs	ns66:Tim_Berners-Lee ,
+		<http://ta.dbpedia.org/resource/\u0B9F\u0BBF\u0BAE\u0BCD_\u0BAA\u0BC7\u0BB0\u0BCD\u0BA9\u0BC7\u0BB0\u0BCD\u0BB8\u0BCD-\u0BB2\u0BC0> ,
+		<http://ky.dbpedia.org/resource/\u0422\u0438\u043C_\u0411\u0435\u0440\u043D\u0435\u0440\u0441-\u041B\u0438> ,
+		<http://my.dbpedia.org/resource/\u1010\u1004\u103A\u1019\u103A_\u1018\u102C\u1014\u102C\u101C\u102E> .
+@prefix dbpedia-als:	<http://als.dbpedia.org/resource/> .
+dbr:Tim_Berners-Lee	owl:sameAs	dbpedia-als:Tim_Berners-Lee .
+@prefix dbpedia-pl:	<http://pl.dbpedia.org/resource/> .
+dbr:Tim_Berners-Lee	owl:sameAs	dbpedia-pl:Tim_Berners-Lee .
+@prefix dbpedia-nl:	<http://nl.dbpedia.org/resource/> .
+dbr:Tim_Berners-Lee	owl:sameAs	dbpedia-nl:Tim_Berners-Lee ,
+		<http://ml.dbpedia.org/resource/\u0D1F\u0D3F\u0D02_\u0D2C\u0D7C\u0D23\u0D47\u0D34\u0D4D\u0D38\u0D4D_\u0D32\u0D40> ,
+		<http://mn.dbpedia.org/resource/\u0422\u0438\u043C_\u0411\u0435\u0440\u043D\u0435\u0440\u0441-\u041B\u0438> .
+@prefix ns70:	<http://d-nb.info/gnd/121649091/about/> .
+dbr:Tim_Berners-Lee	owl:sameAs	ns70:rdf .
+@prefix dbpedia-vo:	<http://vo.dbpedia.org/resource/> .
+dbr:Tim_Berners-Lee	owl:sameAs	dbpedia-vo:Tim_Berners-Lee .
+@prefix ns72:	<http://lt.dbpedia.org/resource/> .
+dbr:Tim_Berners-Lee	owl:sameAs	ns72:Tim_Berners-Lee ,
+		<http://arz.dbpedia.org/resource/\u062A\u064A\u0645_\u0628\u064A\u0631\u0646\u0631\u0632_\u0644\u0649> .
+@prefix ns73:	<http://tl.dbpedia.org/resource/> .
+dbr:Tim_Berners-Lee	owl:sameAs	ns73:Tim_Berners-Lee .
+@prefix dbpedia-ro:	<http://ro.dbpedia.org/resource/> .
+dbr:Tim_Berners-Lee	owl:sameAs	dbpedia-ro:Tim_Berners-Lee ,
+		<http://hi.dbpedia.org/resource/\u091F\u093F\u092E_\u092C\u0930\u094D\u0928\u0930\u094D\u0938_\u0932\u0940> .
+@prefix dbpedia-da:	<http://da.dbpedia.org/resource/> .
+dbr:Tim_Berners-Lee	owl:sameAs	dbpedia-da:Tim_Berners-Lee .
+@prefix ns76:	<http://tt.dbpedia.org/resource/> .
+dbr:Tim_Berners-Lee	owl:sameAs	ns76:Tim_Berners-Li .
+@prefix ns77:	<http://scn.dbpedia.org/resource/> .
+dbr:Tim_Berners-Lee	owl:sameAs	ns77:Tim_Berners-Lee .
+@prefix dbpedia-lmo:	<http://lmo.dbpedia.org/resource/> .
+dbr:Tim_Berners-Lee	owl:sameAs	dbpedia-lmo:Tim_Berners-Lee ,
+		<http://kk.dbpedia.org/resource/\u0422\u0438\u043C_\u0411\u0435\u0440\u043D\u0435\u0440\u0441-\u041B\u0438> ,
+		<http://th.dbpedia.org/resource/\u0E17\u0E34\u0E21_\u0E40\u0E1A\u0E2D\u0E23\u0E4C\u0E40\u0E19\u0E34\u0E23\u0E4C\u0E2A-\u0E25\u0E35> ,
+		<http://hy.dbpedia.org/resource/\u0539\u056B\u0574_\u0532\u0565\u0580\u0576\u0565\u0580\u057D_\u053C\u056B> ,
+		<http://ne.dbpedia.org/resource/\u091F\u093F\u092E_\u092C\u0930\u094D\u0928\u0930\u094D\u0938_\u0932\u0940> .
+@prefix dbpedia-sk:	<http://sk.dbpedia.org/resource/> .
+dbr:Tim_Berners-Lee	owl:sameAs	dbpedia-sk:Tim_Berners-Lee ,
+		<http://tg.dbpedia.org/resource/\u0422\u0438\u043C_\u0411\u0435\u0440\u043D\u0435\u0440\u0441-\u041B\u0438> .
+@prefix ns80:	<http://vec.dbpedia.org/resource/> .
+dbr:Tim_Berners-Lee	owl:sameAs	ns80:Tim_Berners-Lee .
+@prefix dbpedia-eo:	<http://eo.dbpedia.org/resource/> .
+dbr:Tim_Berners-Lee	owl:sameAs	dbpedia-eo:Tim_Berners-Lee .
+@prefix dbpedia-fy:	<http://fy.dbpedia.org/resource/> .
+dbr:Tim_Berners-Lee	owl:sameAs	dbpedia-fy:Tim_Berners-Lee .
+@prefix dbpedia-id:	<http://id.dbpedia.org/resource/> .
+dbr:Tim_Berners-Lee	owl:sameAs	dbpedia-id:Tim_Berners-Lee ,
+		<http://ur.dbpedia.org/resource/\u0679\u0645_\u0628\u0631\u0646\u0631\u0632_\u0644\u06CC> ,
+		<http://fa.dbpedia.org/resource/\u062A\u06CC\u0645_\u0628\u0631\u0646\u0631\u0632_\u0644\u06CC> ,
+		<http://sr.dbpedia.org/resource/\u0422\u0438\u043C_\u0411\u0435\u0440\u043D\u0435\u0440\u0441-\u041B\u0438> ,
+		<http://d-nb.info/gnd/121649091> ,
+		<http://ka.dbpedia.org/resource/\u10E2\u10D8\u10DB_\u10D1\u10D4\u10E0\u10DC\u10D4\u10E0\u10E1-\u10DA\u10D8> ;
+	schema:sameAs	<http://viaf.org/viaf/85312226> ;
+	dbo:abstract	"Timothy John (Tim) Berners-Lee (Londen, 8 juni 1955) is samen met zijn toenmalig manager, de Belg Robert Cailliau, de bedenker en grondlegger van het world wide web of wereldwijde web (www). Hieraan werkte hij toen hij consultant-software-engineer bij het CERN in Zwitserland was, van juni tot en met december 1990. Als directeur van het World Wide Web Consortium (W3C) houdt hij toezicht op de ontwikkeling van webtalen en -protocollen als HTML, XML, CSS en HTTP."@nl ,
+		"\u039F \u03A3\u03B5\u03C1 \u03A4\u03AF\u03BC\u03BF\u03B8\u03B9 \u03A4\u03B6\u03BF\u03BD \u039C\u03C0\u03AD\u03C1\u03BD\u03B5\u03C1\u03C2 \u039B\u03B9 (Sir Timothy John Berners-Lee, 8 \u0399\u03BF\u03C5\u03BD\u03AF\u03BF\u03C5 1955), \u03BC\u03AD\u03BB\u03BF\u03C2 \u03C4\u03BF\u03C5 \u03A4\u03AC\u03B3\u03BC\u03B1\u03C4\u03BF\u03C2 \u03C4\u03B7\u03C2 \u0391\u03BE\u03AF\u03B1\u03C2, \u0399\u03C0\u03C0\u03CC\u03C4\u03B7\u03C2-\u0394\u03B9\u03BF\u03B9\u03BA\u03B7\u03C4\u03AE\u03C2 \u03C4\u03BF\u03C5 \u03A4\u03AC\u03B3\u03BC\u03B1\u03C4\u03BF\u03C2 \u03C4\u03B7\u03C2 \u0392\u03C1\u03B5\u03C4\u03B1\u03BD\u03B9\u03BA\u03AE\u03C2 \u0391\u03C5\u03C4\u03BF\u03BA\u03C1\u03B1\u03C4\u03BF\u03C1\u03AF\u03B1\u03C2, \u039C\u03AD\u03BB\u03BF\u03C2 \u03C4\u03B7\u03C2 \u0392\u03B1\u03C3\u03B9\u03BB\u03B9\u03BA\u03AE\u03C2 \u0395\u03C4\u03B1\u03B9\u03C1\u03B5\u03AF\u03B1\u03C2, \u039C\u03AD\u03BB\u03BF\u03C2 \u03C4\u03B7\u03C2 \u0392\u03B1\u03C3\u03B9\u03BB\u03B9\u03BA\u03AE\u03C2 \u0395\u03C4\u03B1\u03B9\u03C1\u03B5\u03AF\u03B1\u03C2 \u039C\u03B7\u03C7\u03B1\u03BD\u03B9\u03BA\u03AE\u03C2, \u039C\u03AD\u03BB\u03BF\u03C2 \u03C4\u03B7\u03C2 \u0392\u03B1\u03C3\u03B9\u03BB\u03B9\u03BA\u03AE\u03C2 \u0395\u03C4\u03B1\u03B9\u03C1\u03B5\u03AF\u03B1\u03C2 \u03A4\u03B5\u03C7\u03BD\u03CE\u03BD \u03B5\u03AF\u03BD\u03B1\u03B9 \u03BF \u03B5\u03C6\u03B5\u03C5\u03C1\u03AD\u03C4\u03B7\u03C2 \u03C4\u03BF\u03C5 \u03A0\u03B1\u03B3\u03BA\u03CC\u03C3\u03BC\u03B9\u03BF\u03C5 \u0399\u03C3\u03C4\u03BF\u03CD (World Wide Web), \u03B4\u03B9\u03B5\u03C5\u03B8\u03C5\u03BD\u03C4\u03AE\u03C2 \u03C4\u03B7\u03C2  \u03B7 \u03BF\u03C0\u03BF\u03AF\u03B1 \u03B5\u03C0\u03B9\u03C4\u03B7\u03C1\u03B5\u03AF \u03C4\u03B7 \u03C3\u03C5\u03BD\u03B5\u03C7\u03AE \u03B1\u03BD\u03AC\u03C0\u03C4\u03C5\u03BE\u03AE \u03C4\u03BF\u03C5 \u03BA\u03B1\u03B9 \u03B5\u03C1\u03B5\u03C5\u03BD\u03B7\u03C4\u03AE\u03C2 \u03BA\u03B1\u03B9 \u03BA\u03AC\u03C4\u03BF\u03C7\u03BF\u03C2 \u03C4\u03B7\u03C2 \u03AD\u03B4\u03C1\u03B1\u03C2 3Com \u03C3\u03C4\u03BF \u0395\u03C1\u03B3\u03B1\u03C3\u03C4\u03AE\u03C1\u03B9\u03BF \u03A0\u03BB\u03B7\u03C1\u03BF\u03C6\u03BF\u03C1\u03B9\u03BA\u03AE\u03C2 \u03BA\u03B1\u03B9 \u03A4\u03B5\u03C7\u03BD\u03B7\u03C4\u03AE\u03C2 \u039D\u03BF\u03B7\u03BC\u03BF\u03C3\u03CD\u03BD\u03B7\u03C2 (CSAIL) \u03C4\u03BF\u03C5 MIT. \u0395\u03AF\u03BD\u03B1\u03B9 \u03BF \u03B4\u03B9\u03B5\u03C5\u03B8\u03C5\u03BD\u03C4\u03AE\u03C2 \u03C4\u03BF\u03C5 \u039A\u03BF\u03BD\u03C3\u03CC\u03C1\u03C4\u03C3\u03B9\u03BF\u03C5\u03BC \u03C4\u03BF\u03C5 \u03A0\u03B1\u03B3\u03BA\u03CC\u03C3\u03BC\u03B9\u03BF\u03C5 \u0399\u03C3\u03C4\u03BF\u03CD \u03C3\u03C4\u03BF \u0394\u03B9\u03B1\u03B4\u03AF\u03BA\u03C4\u03C5\u03BF \u03BA\u03B1\u03B9 \u039A\u03B1\u03B8\u03B7\u03B3\u03B7\u03C4\u03AE\u03C2 \u03C3\u03C4\u03BF \u03A4\u03BC\u03AE\u03BC\u03B1 \u0397\u03BB\u03B5\u03BA\u03C4\u03C1\u03BF\u03BD\u03B9\u03BA\u03CE\u03BD \u03BA\u03B1\u03B9 \u0395\u03C0\u03B9\u03C3\u03C4\u03AE\u03BC\u03B7\u03C2 \u03A5\u03C0\u03BF\u03BB\u03BF\u03B3\u03B9\u03C3\u03C4\u03CE\u03BD \u03C4\u03BF\u03C5 \u03A3\u03B1\u03BF\u03C5\u03B8\u03AC\u03BC\u03C0\u03C4\u03BF\u03BD (\u0397\u03BD. \u0392\u03B1\u03C3\u03AF\u03BB\u03B5\u03B9\u03BF). \u03A4\u03BF 2016 \u03C4\u03BF\u03C5 \u03B1\u03C0\u03BF\u03BD\u03B5\u03BC\u03AE\u03B8\u03B7\u03BA\u03B5 \u03C4\u03BF \u03B2\u03C1\u03B1\u03B2\u03B5\u03AF\u03BF \u03A4\u03BF\u03CD\u03C1\u03B9\u03BD\u03B3\u03BA."@el ,
+		"Sir Timothy John \u00ABTim\u00BB Berners-Lee, (Londres, 8 de juny de 1955) \u00E9s un enginyer inform\u00E0tic brit\u00E0nic i professor del Massachusetts Institute of Technology. Pot portar els seg\u00FCents t\u00EDtols honor\u00EDfics darrere el cognom: EM (Orde del M\u00E8rit), KBE (Orde de l'Imperi Brit\u00E0nic), FRS (Fellow of the Royal Society). A partir de 1989 coordin\u00E0 un grup d'investigadors de l'Organitzaci\u00F3 Europea per a la Recerca Nuclear (CERN), amb seu a Ginebra (Su\u00EFssa), que desenvolup\u00E0 el projecte World Wide Web, (el web). El 25 de desembre de 1990, amb l'ajuda de Robert Cailliau i personal del CERN, va implementar amb \u00E8xit la primera comunicaci\u00F3 entre un client i un servidor http a trav\u00E9s d'Internet. El 2007, va quedar en primer lloc, al costat d'Albert Hofmann, a la llista dels cent majors genis vius del diari The Daily Telegraph. Berners-Lee \u00E9s el director de la World Wide Web Consortium (W3C), instituci\u00F3 que fund\u00E0 el 1994, i que supervisa el desenvolupament del web. Tamb\u00E9 \u00E9s el fundador de la Fundaci\u00F3 World Wide Web, i \u00E9s investigador s\u00E8nior i titular de la  i fundador president del  (CSAIL) del Massachusetts Institute of Technology (MIT). \u00C9s fellow i conseller del Web Science Trust, i membre de la junta consultiva del Centre d'Intel\u00B7lig\u00E8ncia Col\u00B7lectiva del MIT. L'abril de 2009, va ser elegit com a membre de l'Acad\u00E8mia Nacional de Ci\u00E8ncies dels Estats Units."@ca ,
+		"\uD300 \uBC84\uB108\uC2A4\uB9AC \uACBD(\uC601\uC5B4: Sir Tim Berners-Lee, OM, KBE, FRS, 1955\uB144 6\uC6D4 8\uC77C ~ )\uC740 \uC601\uAD6D\uC758 \uCEF4\uD4E8\uD130 \uACFC\uD559\uC790\uC774\uB2E4. 1989\uB144 \uC6D4\uB4DC \uC640\uC774\uB4DC \uC6F9\uC758 \uD558\uC774\uD37C\uD14D\uC2A4\uD2B8 \uC2DC\uC2A4\uD15C\uC744 \uACE0\uC548\uD558\uC5EC \uAC1C\uBC1C\uD588\uB2E4. \uC778\uD130\uB137\uC758 \uAE30\uBC18\uC744 \uB2E6\uC740 \uC5EC\uB7EC \uACF5\uB85C\uB85C \uC6F9\uC758 \uC544\uBC84\uC9C0\uB77C\uACE0 \uBD88\uB9AC\uB294 \uC778\uBB3C \uC911 \uD558\uB098\uC774\uB2E4. URL, HTTP, HTML \uCD5C\uCD08 \uC124\uACC4\uB3C4 \uADF8\uAC00 \uD55C \uAC83\uC774\uB2E4. \uCC28\uC138\uB300 \uC6F9 \uAE30\uC220\uC778 \uC2DC\uB9E8\uD2F1 \uC6F9 \uAE30\uC220\uC758 \uD45C\uC900\uD654\uC5D0 \uD798\uC3DF\uACE0 \uC788\uB2E4."@ko ,
+		"Is eola\u00ED r\u00EDomhaireachta \u00E9 an Ridire Timothy \"Tim\" John Berners-Lee n\u00F3 TimBL (a rugadh ar an 8 Meitheamh 1955). Deirtear gurb \u00E9 \"athair\" an Ghr\u00E9as\u00E1in Domhanda. T\u00E1 s\u00E9 ina sti\u00FArth\u00F3ir ar an World Wide Web Consortium (W3C), an eagra\u00EDocht a riala\u00EDonn forbairt an ghr\u00E9as\u00E1in. Rugadh i Londain \u00E9, agus ba mhatamaiticeoir\u00ED iad a thuismitheoir\u00ED. D'fhreastal s\u00E9 ar Ollscoil Oxford. Chruthaigh s\u00E9 an An Gr\u00E9as\u00E1n Domhanda i 1990 nuair a bh\u00ED s\u00E9 ag obair i CERN. Bh\u00ED an c\u00F3ras seo bunaithe ar h\u00EDpeart\u00E9acs le haghaidh eolas a scaipeadh idir taighdeoir\u00ED in ollscoileanna is l\u00E1rionaid taighde ar fud an domhain, le l\u00EDonra r\u00EDomhaireachta. I 1994, bhunaigh Berners-Lee an World Wide Web Consortium (W3C) ag an Massachusetts Institute of Technology le haghaidh caighde\u00E1in a chruth\u00FA don gr\u00E9as\u00E1n. Bh\u00ED s\u00E9 ina ch\u00F3na\u00ED i gceantar Bhost\u00FAn Massachusetts, i Lexington lena bhean ch\u00E9ile is a bheirt leanbh \u00F3 1994-2004."@ga ,
+		"Timothy Berners-Lee (ur. 8 czerwca 1955 w Londynie) \u2013 brytyjski fizyk i programista, wsp\u00F3\u0142tw\u00F3rca i jeden z pionier\u00F3w us\u0142ugi WWW, jednej z najpopularniejszych us\u0142ug internetowych. Od 1994 jest przewodnicz\u0105cym W3C."@pl ,
+		"Timothy John Berners-Lee KBE, OM, FRS (TimBL ou TBL) (Londres, 8 de junho de 1955) \u00E9 um f\u00EDsico brit\u00E2nico, cientista da computa\u00E7\u00E3o e professor do MIT. \u00C9 o criador da World Wide Web, tendo feito a primeira proposta para sua cria\u00E7\u00E3o a 12 de mar\u00E7o de 1989. Em 25 de dezembro de 1990, com a ajuda de Robert Cailliau e um jovem estudante do CERN, implementou a primeira comunica\u00E7\u00E3o bem-sucedida entre um cliente HTTP e o servidor atrav\u00E9s da internet. Berners-Lee \u00E9 o diretor do World Wide Web Consortium (W3C), que supervisiona o desenvolvimento continuado da web. Tamb\u00E9m \u00E9 o fundador da World Wide Web Foundation e \u00E9 um pesquisador s\u00EAnior e titular e fundador da cadeira de 3Com no  (CSAIL).\u00C9 um diretor da The Web Science Research Initiative (WSRI) e um membro do conselho consultivo do .Em abril de 2009, foi eleito como membro da Academia Nacional de Ci\u00EAncias dos Estados Unidos, sediada em Washington, D.C. Em 2011, foi nomeado como um membro do conselho de administra\u00E7\u00E3o da Funda\u00E7\u00E3o Ford. Em 2004, Timothy venceu o Millennium Technology Prize, o que lhe rendeu um milh\u00E3o de euros. Em 2017 foi agraciado pela Association for Computing Machinery (ACM) com o Pr\u00EAmio Turing de 2016, considerado o \"Nobel da Computa\u00E7\u00E3o\"."@pt ,
+		"Timothy \"Tim\" John Berners-Lee, KBE,\u200B OM,\u200B FRS,\u200B FREng,\u200B FRSA,\u200B (Londres, Reino Unido, 8 de junio de 1955), conocido como Tim Berners-Lee, es un cient\u00EDfico de la computaci\u00F3n brit\u00E1nica, conocido por ser el padre de la World Wide Web. Estableci\u00F3 la primera comunicaci\u00F3n entre un cliente y un servidor usando el protocolo HTTP en noviembre de 1989. En octubre de 1994 fund\u00F3 el Consorcio de la World Wide Web (W3C) con sede en el MIT, para supervisar y estandarizar el desarrollo de las tecnolog\u00EDas sobre las que se fundamenta la Web y que permiten el funcionamiento de Internet. Ante la necesidad de distribuir e intercambiar informaci\u00F3n acerca de sus investigaciones de una manera m\u00E1s efectiva, Berners-Lee desarroll\u00F3 las ideas fundamentales que estructuran la web. \u00C9l y su grupo crearon lo que por sus siglas en ingl\u00E9s se denomina Lenguaje HTML (HyperText Markup Language) o lenguaje de etiquetas de hipertexto, el protocolo HTTP (HyperText Transfer Protocol) y el sistema de localizaci\u00F3n de objetos en la web URL (Uniform Resource Locator). Es posible encontrar muchas de las ideas plasmadas por Berners-Lee en el proyecto Xanad\u00FA (que propuso Ted Nelson) y el memex (de Vannevar Bush)."@es ,
+		"Sir Timothy John Berners-Lee (Londra, 8 giugno 1955) \u00E8 un informatico britannico, insignito del premio Turing 2016, co-inventore insieme a Robert Cailliau del World Wide Web."@it ,
+		"Timothy John Berners-Lee, n\u00E9 le 8 juin 1955 \u00E0 Londres, est un informaticien britannique, principal inventeur du World Wide Web (WWW) au tournant des ann\u00E9es 1990 lors de ses travaux au CERN. En juillet 2004, il est fait chevalier par la reine \u00C9lisabeth II pour ce travail et son nom officiel devient Sir Timothy John Berners-Lee. Depuis 1994, il pr\u00E9side le World Wide Web Consortium (W3C), organisme qu'il a fond\u00E9. Il est laur\u00E9at du prix Turing 2016. Tim Berners-Lee est consid\u00E9r\u00E9 comme l'inventeur du HTML en 1992. Il fut aid\u00E9 \u00E0 ses d\u00E9buts par l'ing\u00E9nieur et informaticien belge Robert Cailliau qui cosigna notamment avec lui, en novembre 1990, un document d\u00E9sormais entr\u00E9 dans l'Histoire et intitul\u00E9 \u00AB WorldWideWeb : Proposition pour un projet hypertexte\u00BB."@fr ,
+		"\u0421\u044D\u0440 \u0422\u0438\u043C\u043E\u0442\u0438 \u0414\u0436\u043E\u043D \u0411\u0435\u0301\u0440\u043D\u0435\u0440\u0441-\u041B\u0438 OM (\u0430\u043D\u0433\u043B. Sir Timothy John \u00ABTim\u00BB Berners-Lee; \u0440\u043E\u0434. 8 \u0438\u044E\u043D\u044F 1955 \u0433\u043E\u0434\u0430, \u041B\u043E\u043D\u0434\u043E\u043D) \u2014 \u0441\u043E\u0437\u0434\u0430\u0442\u0435\u043B\u044C URI, URL, HTTP, HTML \u0438 \u0412\u0441\u0435\u043C\u0438\u0440\u043D\u043E\u0439 \u043F\u0430\u0443\u0442\u0438\u043D\u044B (\u0441\u043E\u0432\u043C\u0435\u0441\u0442\u043D\u043E \u0441 \u0420\u043E\u0431\u0435\u0440\u0442\u043E\u043C \u041A\u0430\u0439\u043E) \u0438 \u0434\u0435\u0439\u0441\u0442\u0432\u0443\u044E\u0449\u0438\u0439 \u0433\u043B\u0430\u0432\u0430 \u041A\u043E\u043D\u0441\u043E\u0440\u0446\u0438\u0443\u043C\u0430 \u0412\u0441\u0435\u043C\u0438\u0440\u043D\u043E\u0439 \u043F\u0430\u0443\u0442\u0438\u043D\u044B. \u0410\u0432\u0442\u043E\u0440 \u043A\u043E\u043D\u0446\u0435\u043F\u0446\u0438\u0438 \u0441\u0435\u043C\u0430\u043D\u0442\u0438\u0447\u0435\u0441\u043A\u043E\u0439 \u043F\u0430\u0443\u0442\u0438\u043D\u044B. \u0410\u0432\u0442\u043E\u0440 \u043C\u043D\u043E\u0436\u0435\u0441\u0442\u0432\u0430 \u0434\u0440\u0443\u0433\u0438\u0445 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043E\u043A \u0432 \u043E\u0431\u043B\u0430\u0441\u0442\u0438 \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u043E\u043D\u043D\u044B\u0445 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0439."@ru ,
+		"Timothy John \"Tim\" BERNERS-LEE, konata anka\u016D kiel TimBL (naski\u011Dis la 8-an de junio 1955) estas angla informadikisto kaj la iniciatinto de la Tut-Tera Teksa\u0135o. En Marto 1989, Berners-Lee proponis projekton al sia dunganto CERN, bazitan sur la koncepto de Hiperteksto, por faciligi la disdividon kaj la \u011Disdatigon de informoj inter esploristoj nome inter kliento kaj servilo pere de Interreto iom \u0109irka\u016D mezo de Novembro tiun saman jaron. Tiele li konstruis la sistemon kiu fari\u011Dis la fundamento de la TTT. Li nun estras la W3C kiu superrigardas \u011Dian da\u016Dran disvolvi\u011Don. Li estas anka\u016D la fondinto de la TTT-Fonda\u0135o, kaj estas veterana esploristo kaj tenanto de fondinta sidloko \u0109e la esplora laboratorio MIT Computer Science and Artificial Intelligence Laboratory (CSAIL).Li estas direktoro de la Web Science Research Initiative (WSRI), kaj membro de la konsilantaro de la MIT Center for Collective Intelligence. En 2011, li estis nomumita kiel membro de la stabanaro de trustoj de Ford Fonda\u0135o. En 2004, Berners-Lee estis kavalirigita fare de la re\u011Dino Elizabeto pro sia pionira laboro. En Aprilo 2009, li estis elektita eksterlanda asociano de la Usona Nacia Akademio de Sciencoj. Li estis honorigita kiel \"Inventanto de la ttt-ejo\" dum la malferma ceremonio de la Somera Olimpiko 2012, en kiu li aperis persone, laborante per ekstermoda NeXT Computer \u0109e la Olimpika Stadiono de Londono. Li t\u016Ditis \"This is for everyone\" (tio estas por \u0109iu), kio tuj estis literumita per lampetoj LKE ligitaj al la sidlokoj de la 80,000 personoj de la publiko."@eo ,
+		"\u0421\u0435\u0440 \u0422\u0456\u043C\u043E\u0442\u0456 \u0414\u0436\u043E\u043D \u0411\u0435\u0301\u0440\u043D\u0435\u0440\u0441-\u041B\u0456 (\u0430\u043D\u0433\u043B. Sir Timothy John \u00ABTim\u00BB Berners-Lee; \u043D\u0430\u0440. 8 \u0447\u0435\u0440\u0432\u043D\u044F 1955, \u041B\u043E\u043D\u0434\u043E\u043D) \u2014 \u0431\u0440\u0438\u0442\u0430\u043D\u0441\u044C\u043A\u0438\u0439 \u0441\u043F\u0435\u0446\u0456\u0430\u043B\u0456\u0441\u0442 \u0437 \u0456\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0438, \u0442\u0432\u043E\u0440\u0435\u0446\u044C HTTP, HTML, URI \u0456 \u0430\u0432\u0442\u043E\u0440 \u0456\u043D\u0448\u0438\u0445 \u0440\u043E\u0437\u0440\u043E\u0431\u043E\u043A \u0432 \u0433\u0430\u043B\u0443\u0437\u0456 \u0456\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0456\u0439\u043D\u0438\u0445 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0439, \u0437\u0430\u0441\u043D\u043E\u0432\u043D\u0438\u043A \u0442\u0430 \u0433\u043E\u043B\u043E\u0432\u0430 \u043A\u043E\u043D\u0441\u043E\u0440\u0446\u0456\u0443\u043C\u0443 W3C, \u0433\u043E\u043B\u043E\u0432\u043D\u0438\u0439 \u0440\u043E\u0437\u0440\u043E\u0431\u043D\u0438\u043A \u0412\u0441\u0435\u0441\u0432\u0456\u0442\u043D\u044C\u043E\u0457 \u043F\u0430\u0432\u0443\u0442\u0438\u043D\u0438 (\u0441\u043F\u0456\u043B\u044C\u043D\u043E \u0437 \u0420\u043E\u0431\u0435\u0440\u0442\u043E\u043C \u041A\u0430\u0439\u043E), \u0430\u0432\u0442\u043E\u0440 \u043A\u043E\u043D\u0446\u0435\u043F\u0446\u0456\u0457 \u0441\u0435\u043C\u0430\u043D\u0442\u0438\u0447\u043D\u043E\u0457 \u043F\u0430\u0432\u0443\u0442\u0438\u043D\u0438. \u041B\u0430\u0443\u0440\u0435\u0430\u0442 \u043F\u0440\u0435\u043C\u0456\u0457 \u0422\u044E\u0440\u0456\u043D\u0433\u0430 2016 \u0440\u043E\u043A\u0443."@uk ,
+		"Sir Timothy John \"Tim\" Berners-Lee, KBE, FRS, f\u00F6dd 8 juni 1955 i London i England, \u00E4r skaparen av World Wide Web, en teknik som skapade f\u00F6ruts\u00E4ttningar f\u00F6r en bredare anv\u00E4ndning av Internet, och chef f\u00F6r World Wide Web Consortium."@sv ,
+		"Timothy \u201ETim\u201C John Berners-Lee (* 8. \u010Dervna 1955 Lond\u00FDn) je tv\u016Frce World Wide Webu a \u0159editel konsorcia W3C, kter\u00E9 dohl\u00ED\u017E\u00ED na pokra\u010Duj\u00EDc\u00ED v\u00FDvoj webu. Narodil se v Lond\u00FDn\u011B ve Spojen\u00E9m kr\u00E1lovstv\u00ED Conwayovi Berners-Lee a Mary Lee Woods. Jeho rodi\u010De, oba matematici, byli spole\u010Dn\u011B zam\u011Bstn\u00E1ni v t\u00FDmu, kter\u00FD postavil jeden z prvn\u00EDch po\u010D\u00EDta\u010D\u016F, . Rodi\u010De ho u\u010Dili matematiku, kde mohli, dokonce i u ve\u010De\u0159e. Absolvoval Queen's College a Oxfordskou univerzitu. V roce 1976 pracoval v Plessey Telecommunications Limited jako program\u00E1tor; tam se sezn\u00E1mil se svoj\u00ED prvn\u00ED \u017Eenou Jane. V roce 1978 pracoval v D.G. Nash Limited, kde napsal software pro sazbu textu a opera\u010Dn\u00ED syst\u00E9m. V roce 1980 p\u016Fsobil 6 m\u011Bs\u00EDc\u016F v Evropsk\u00E9 organizaci pro jadern\u00FD v\u00FDzkum (CERN) v \u017Denev\u011B, kde napsal program jm\u00E9nem ENQUIRE, kter\u00FD mu m\u011Bl pom\u00E1hat p\u0159i dokumentaci nejd\u016Fle\u017Eit\u011Bj\u0161\u00EDch okam\u017Eik\u016F jeho \u017Eivota a spojovat je s asociacemi k nejr\u016Fzn\u011Bj\u0161\u00EDm komplex\u016Fm \u00FAloh. Vzhledem k z\u00E1sob\u011B dokument\u016F, kter\u00E9 byly k dispozici pouze v jednom exempl\u00E1\u0159i a na jednom m\u00EDst\u011B, jej napadlo vytvo\u0159it multimedi\u00E1ln\u00ED informa\u010Dn\u00ED syst\u00E9m s d\u00E1lkovou s\u00EDt\u00ED, aby k t\u011Bmto zdroj\u016Fm existoval p\u0159\u00EDstup z r\u016Fzn\u00FDch m\u00EDst. Berners-Lee se nejprve ve sv\u00E9m pl\u00E1nu na World Wide Web zam\u011B\u0159il na vytvo\u0159en\u00ED n\u00E1stroje, jeho\u017E pomoc\u00ED by \u0161lo vym\u011B\u0148ovat pohodln\u011B data a my\u0161lenky fyzik\u016F v\u011Bnuj\u00EDc\u00EDch se v\u00FDzkumu vysokoenergetick\u00FDch jev\u016F, kte\u0159\u00ED byli roztrou\u0161en\u00ED po cel\u00E9m sv\u011Bt\u011B. V roce 1989 Tim Berners-Lee spole\u010Dn\u011B s Robertem Cailliauem vytvo\u0159il prvn\u00ED n\u00E1vrh projektu vytvo\u0159en\u00ED distribuovan\u00E9ho hypertextov\u00E9ho syst\u00E9mu a t\u00EDm byl zah\u00E1jen projekt WWW. Kr\u00E1tce nato napsal prvn\u00ED webov\u00FD prohl\u00ED\u017Ee\u010D WorldWideWeb (pozd\u011Bji p\u0159ejmenovan\u00FD na Nexus), kter\u00FD byl ur\u010Den speci\u00E1ln\u011B pro po\u010D\u00EDta\u010D NeXT v CERNu. V roce 2007 dostal od kr\u00E1lovny Al\u017Eb\u011Bty II. \u0158\u00E1d za z\u00E1sluhy (Order of Merit). V roce 2016 mu byla za z\u00E1sluhy o rozvoj webov\u00FDch technologii ud\u011Blena Turingova cena."@cs ,
+		"Sir Timothy John \"Tim\" Berners-Lee, KBE (TimBL atau TBL) (lahir di London, Inggris, 8 Juni 1955; umur 64 tahun) adalah penemu World Wide Web dan ketua World Wide Web Consortium, yang mengatur perkembangannya. Pada 1980, ketika masih seorang kontraktor bebas di CERN, Berners-Lee mengajukan sebuah proyek yang berbasiskan konsep hiperteks (hypertext) untuk memfasilitasi pembagian dan pembaharuan informasi di antara para peneliti. Dengan bantuan dari  dia menciptakan sistem prototipe bernama . Setelah meninggalkan CERN untuk bekerja di John Poole's Image Computer Systems Ltd, dia kembali pada 1984 sebagai seorang rekan peneliti. Dia menggunakan ide yang mirip yang telah dia gunakan pada Enquire untuk menciptakan World Wide Web, di mana dia mendesain dan membangun browser yang pertama (bernama WorldWideWeb dan dikembangkan dalam ) dan server web pertama yang bernama httpd. Situs web pertama yang dibuat Berners-Lee (dan oleh karena itu ia juga merupakan situs web pertama) beralamat di  (telah diarsip) dan dimasukkan online untuk pertama kalinya pada 6 Agustus 1991. Pada 1994, Berners-Lee mendirikan World Wide Web Consortium (W3C) di Massachusetts Institute of Technology. Hingga kini, Berners-Lee masih tetap rendah hati dan tidak berkeinginan untuk mendapatkan status populer. Banyak yang masih tidak mengetahui kekuatan karya pria ini, World Wide Web. Salah satu kontribusi terbesarnya dalam memajukan World Wide Web adalah dengan tidak mempatenkannya sehingga masih dapat digunakan secara bebas. Pada 16 Juli 2004 dia diberi gelar kehormatan KBE oleh Ratu Elizabeth II sebagai penghormatan atas jasa-jasanya."@in ,
+		"\u8482\u83AB\u897F\u00B7\u7EA6\u7FF0\u00B7\u4F2F\u7EB3\u65AF-\u674E\u7235\u58EB\uFF0COM KBE FRS FREng FRSA FBCS\uFF08\u82F1\u8A9E\uFF1ASir Timothy John Berners-Lee\uFF0C1955\u5E746\u67088\u65E5\uFF0D\uFF09\uFF0C\u66B1\u7A31\u70BA\u8482\u59C6\u00B7\u4F2F\u7EB3\u65AF-\u674E\uFF08\u82F1\u8A9E\uFF1ATim Berners-Lee\uFF09\uFF0C\u82F1\u56FD\u8BA1\u7B97\u673A\u79D1\u5B66\u5BB6\u3002\u4ED6\u662F\u4E07\u7EF4\u7F51\u7684\u53D1\u660E\u8005\u30021990\u5E7412\u670825\u65E5\uFF0C\u4ED6\u6210\u529F\u5229\u7528\u7DB2\u969B\u7DB2\u8DEF\u5B9E\u73B0\u4E86\u8D85\u6587\u672C\u4F20\u8F93\u534F\u8BAE\u5BA2\u6236\u7AEF\u4E0E\u670D\u52A1\u5668\u7684\u7B2C\u4E00\u6B21\u901A\u8BAF\u3002 \u4F2F\u7EB3\u65AF-\u674E\u662F\u4E07\u7EF4\u7F51\u8054\u76DF\u7684\u4E3B\u5E2D\uFF0C\u4E3A\u5173\u6CE8\u4E07\u7EF4\u7F51\u53D1\u5C55\u800C\u521B\u529E\u7684\u7EC4\u7EC7\u3002\u4ED6\u4E5F\u662F\u7684\u521B\u529E\u4EBA\u3002\u4F2F\u7EB3\u65AF-\u674E\u8FD8\u662F\u9EBB\u7701\u7406\u5DE5\u5B66\u9662\u8BA1\u7B97\u673A\u79D1\u5B66\u53CA\u4EBA\u5DE5\u667A\u80FD\u5B9E\u9A8C\u5BA4\u521B\u529E\u4E3B\u5E2D\u53CA\u9AD8\u7EA7\u7814\u7A76\u5458\u3002\u540C\u65F6\uFF0C\u4F2F\u7EB3\u65AF-\u674E\u662F\u7F51\u9875\u79D1\u5B66\u7814\u7A76\u5021\u8BAE\u4F1A\u7684\u603B\u76D1\u3002\u6700\u540E\uFF0C\u4ED6\u662F\u9EBB\u7701\u7406\u5DE5\u5B66\u9662\u96C6\u9AD4\u667A\u6167\u4E2D\u5FC3\u54A8\u8BE2\u59D4\u5458\u4F1A\u6210\u5458\u30022011\u5E74\uFF0C\u4ED6\u88AB\u4EFB\u547D\u70BA\u798F\u7279\u57FA\u91D1\u6703\u7684\u8463\u4E8B\u6703\u6210\u54E1\u3002 2004\u5E74\uFF0C\u82F1\u5973\u7687\u4F0A\u4E3D\u838E\u767D\u4E8C\u4E16\u5411\u4F2F\u7EB3\u65AF-\u674E\u9881\u53D1\u5927\u82F1\u5E1D\u56FD\u7235\u7D1A\u53F8\u4EE4\u52CB\u7AE0 \u30022009\u5E744\u6708\uFF0C\u4ED6\u83B7\u9009\u4E3A\u7F8E\u56FD\u56FD\u5BB6\u79D1\u5B66\u9662\u5916\u7C4D\u9662\u58EB\u3002\u4ED6\u88AB\u300A\u6642\u4EE3\u300B\u96DC\u8A8C\u5217\u70BA\u6642\u4EE3100\u4EBA\uFF1A\u672C\u4E16\u7D00\u6700\u91CD\u8981\u7684\u4EBA\u7269\u3002\u57282012\u5E74\u590F\u5B63\u5967\u6797\u5339\u514B\u904B\u52D5\u6703\u958B\u5E55\u5178\u79AE\u4E0A\uFF0C\u4ED6\u83B7\u5F97\u4E86\u201C\u4E07\u7EF4\u7F51\u53D1\u660E\u8005\u201D\u7684\u7F8E\u8A89\u3002\u4F2F\u7EB3\u65AF-\u674E\u672C\u4EBA\u4E5F\u53C2\u4E0E\u4E86\u958B\u5E55\u5178\u79AE\uFF0C\u5728\u4E00\u53F0NeXT\u8BA1\u7B97\u673A\u524D\u5DE5\u4F5C\u3002\u4ED6\u5728Twitter\u4E0A\u53D1\u8868\u6D88\u606F\u8BF4\uFF1A\u201C\u8FD9\u662F\u7ED9\u6240\u6709\u4EBA\u7684\u201D\uFF0C\u4F53\u80B2\u9986\u5185\u7684\u6DB2\u6676\u663E\u793A\u5668\u5149\u7BA1\u968F\u5373\u663E\u793A\u51FA\u6587\u5B57\u6765\u30022017\u5E74\uFF0C\u4ED6\u56E0\u201C\u53D1\u660E\u4E86\u4E07\u7EF4\u7F51\u3001\u7B2C\u4E00\u4E2A\u6D4F\u89C8\u5668\u548C\u4F7F\u5F97\u4E07\u7EF4\u7F51\u5F97\u4EE5\u6269\u5C55\u7684\u57FA\u7840\u534F\u8BAE\u53CA\u7B97\u6CD5\u201D\u800C\u83B7\u5F972016\u5E74\u5EA6\u7684\u56FE\u7075\u5956\u3002"@zh ,
+		"Sir Timothy \u201CTim\u201D John Berners-Lee, OM, KBE (TimBL edo TBL) 1955ko ekainaren 8an jaio zen Londresen, Erresuma Batua, 1976. urtean Oxford Unibertsitateko Queen\u2019s College-en Fisikan lizentziatu zen. Web-aren aita dela kontsideratzen da. Tim Berners-Leek, bere ikerketen informazioa modu eragingarriago batean banatzeko beharren artean, webaren zati bat diren ideia batzuk garatu zituen. Tim eta bere taldekideek ingelesez deitzen diren HTML lengoaia (HyperText Markup Language) edo hipertestuko etiketen lengoaia; HTTP protokoloa (HyperText Transfer Protocol); eta URL web-ean objektuen aurkitze sistema (Universal Resource Locator) sortu zituen. Berners-Leek aipatutako ideia askok Ted Nelsonek eta Vannevar Bushek proposatutako  aurki ditzakegu."@eu ,
+		"Sir Timothy John Berners-Lee  (born 8 June 1955), also known as TimBL, is an English engineer and computer scientist best known as the inventor of the World Wide Web. He is a Professorial Fellow of Computer Science at the University of Oxford and a professor at the Massachusetts Institute of Technology (MIT). Berners-Lee proposed an information management system on 12 March 1989, then implemented the first successful communication between a Hypertext Transfer Protocol (HTTP) client and server via the internet in mid-November. Berners-Lee is the director of the World Wide Web Consortium (W3C) which oversees the continued development of the Web. He is also the founder of the World Wide Web Foundation and is a senior researcher and holder of the 3Com founders chair at the MIT Computer Science and Artificial Intelligence Laboratory (CSAIL). He is a director of the Web Science Research Initiative (WSRI) and a member of the advisory board of the MIT Center for Collective Intelligence. In 2011, he was named as a member of the board of trustees of the Ford Foundation. He is a founder and president of the Open Data Institute and is currently an advisor at social network MeWe. In 2004, Berners-Lee was knighted by Queen Elizabeth II for his pioneering work. In April 2009, he was elected a Foreign Associate of the National Academy of Sciences. He was named in Time magazine's list of the 100 Most Important People of the 20th century and has received a number of other accolades for his invention. He was honoured as the \"Inventor of the World Wide Web\" during the 2012 Summer Olympics opening ceremony in which he appeared working with a vintage NeXT Computer at the London Olympic Stadium. He tweeted \"This is for everyone\" which appeared in LCD lights attached to the chairs of the audience. He received the 2016 Turing Award \"for inventing the World Wide Web, the first web browser, and the fundamental protocols and algorithms allowing the Web to scale\"."@en ,
+		"Sir Timothy John Berners-Lee, OM, KBE, FRS, FRSA (* 8. Juni 1955 in London) ist ein britischer Physiker und Informatiker. Er ist der Erfinder von HTML (Hypertext Markup Language) und der Begr\u00FCnder des World Wide Web. Heute steht er dem World Wide Web Consortium (W3C) vor, ist Professor am Massachusetts Institute of Technology (MIT) und hat seit 2016 einen Lehrstuhl an der Universit\u00E4t Oxford."@de ,
+		"\u30C6\u30A3\u30E2\u30B7\u30FC\u30FB\"\u30C6\u30A3\u30E0\"\u30FB\u30B8\u30E7\u30F3\u30FB\u30D0\u30FC\u30CA\u30FC\u30BA\uFF1D\u30EA\u30FC\uFF08\u82F1\u8A9E: Timothy \"Tim\" John Berners-Lee, 1955\u5E746\u67088\u65E5 - \uFF09\u306F\u3001\u30A4\u30AE\u30EA\u30B9\u306E\u8A08\u7B97\u6A5F\u79D1\u5B66\u8005\u3002\u30ED\u30D0\u30FC\u30C8\u30FB\u30AB\u30A4\u30EA\u30E5\u30FC\u3068\u3068\u3082\u306BWorld Wide Web\uFF08WWW\uFF09\u3092\u8003\u6848\u3057\u3001\u30CF\u30A4\u30D1\u30FC\u30C6\u30AD\u30B9\u30C8\u30B7\u30B9\u30C6\u30E0\u3092\u5B9F\u88C5\u30FB\u958B\u767A\u3057\u305F\u4EBA\u7269\u3067\u3042\u308B\u3002\u307E\u305FURL\u3001HTTP\u3001HTML \u306E\u6700\u521D\u306E\u8A2D\u8A08\u306F\u5F7C\u306B\u3088\u308B\u3082\u306E\u3067\u3042\u308B\u3002 \u30E1\u30EA\u30C3\u30C8\u52F2\u7AE0\uFF08OM\uFF09\u3001\u5927\u82F1\u5E1D\u56FD\u52F2\u7AE0\uFF08KBE\uFF09\u3001FRS\uFF08\u738B\u7ACB\u5354\u4F1A\u30D5\u30A7\u30ED\u30FC\uFF09\u3001FREng\uFF08\u30D5\u30A7\u30ED\u30FC\uFF09\u3001FRSA\uFF08\u738B\u7ACB\u6280\u82B8\u5354\u4F1A\u30D5\u30A7\u30ED\u30FC\uFF09\u3092\u4FDD\u6301\u3059\u308B\u3002"@ja ,
+		"\u0627\u0644\u0633\u064A\u0631 \u062A\u064A\u0645 \u0628\u064A\u0631\u0646\u0631\u0632 \u0644\u064A (\u0628\u0627\u0644\u0625\u0646\u062C\u0644\u064A\u0632\u064A\u0629: Sir Tim Berners-Lee) \u0648\u0644\u062F \u0641\u064A 8 \u064A\u0648\u0646\u064A\u0648 1955\u060C \u0647\u0648 \u0645\u0647\u0646\u062F\u0633 \u0648\u0639\u0627\u0644\u0645 \u062D\u0627\u0633\u0648\u0628 \u0625\u0646\u0643\u0644\u064A\u0632\u064A\u060C \u064A\u0639\u0631\u0641 \u0628\u0633\u0628\u0628 \u0627\u062E\u062A\u0631\u0627\u0639\u0647 \u0644\u0644\u0634\u0628\u0643\u0629 \u0627\u0644\u0639\u0646\u0643\u0628\u0648\u062A\u064A\u0629 \u0627\u0644\u0639\u0627\u0644\u0645\u064A\u0629\u060C \u0648\u0627\u0644\u062A\u064A \u062A\u064F\u0639\u0631\u0641 \u0628\u0627\u0644\u0648\u064A\u0628. \u0648\u0647\u0648 \u0627\u0644\u0622\u0646 \u0623\u0633\u062A\u0627\u0630 \u0641\u064A \u0639\u0644\u0648\u0645 \u0627\u0644\u062D\u0627\u0633\u0648\u0628 \u0641\u064A \u062C\u0627\u0645\u0639\u0629 \u0623\u0648\u0643\u0633\u0641\u0648\u0631\u062F \u0641\u064A \u0627\u0644\u0645\u0645\u0644\u0643\u0629 \u0627\u0644\u0645\u062A\u062D\u062F\u0629. \u0642\u062F\u0651\u0645 \u0627\u0642\u062A\u0631\u0627\u062D\u0627\u064B \u0644\u0646\u0638\u0627\u0645 \u0625\u062F\u0627\u0631\u0629 \u0645\u0639\u0644\u0648\u0645\u0627\u062A \u0641\u064A \u0634\u0647\u0631 \u0645\u0627\u0631\u0633 \u0645\u0646 \u0627\u0644\u0639\u0627\u0645 1989\u0645\u060C \u0648\u0646\u062C\u062D \u0641\u064A \u0645\u0646\u062A\u0635\u0641 \u0634\u0647\u0631 \u0646\u0648\u0641\u0645\u0628\u0631 \u0645\u0646 \u0646\u0641\u0633 \u0627\u0644\u0639\u0627\u0645 \u0641\u064A \u062A\u0646\u0641\u064A\u0630 \u0623\u0648\u0644 \u0627\u062A\u0635\u0627\u0644 \u0646\u0627\u062C\u062D \u0628\u064A\u0646 \u0639\u0645\u064A\u0644 \u0648\u0645\u064F\u062E\u062F\u0651\u0645 \u0644\u0628\u0631\u0648\u062A\u0643\u0648\u0644 \u0646\u0642\u0644 \u0627\u0644\u0646\u0635 \u0627\u0644\u0641\u0627\u0626\u0642 \u0648\u0641\u0642 \u0646\u0645\u0648\u0630\u062C \u0637\u0644\u0628 \u0627\u0644\u062E\u062F\u0645\u0629."@ar ;
+	dbp:align	"right"@en ;
+	dbp:caption	"Berners-Lee in 2014"@en ;
+	dbp:years	2004 ;
+	dbp:source	"\u2014Tim Berners-Lee's entry in Time magazine's list of the 100 Most Important People of the 20th century, March 1999."@en .
+@prefix prov:	<http://www.w3.org/ns/prov#> .
+dbr:Tim_Berners-Lee	prov:wasDerivedFrom	<http://en.wikipedia.org/wiki/Tim_Berners-Lee?oldid=986133960&ns=0> ;
+	dbo:parent	dbr:Mary_Lee_Woods ,
+		dbr:Conway_Berners-Lee ;
+	dbp:name	"Tim Berners-Lee"@en ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/Tim_Berners-Lee-Knight-crop.jpg?width=300> ;
+	dbp:birthPlace	"London, England"@en .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+dbr:Tim_Berners-Lee	dbo:birthDate	"1955-06-08"^^xsd:date .
+@prefix ns86:	<http://dbpedia.org/datatype/> .
+dbr:Tim_Berners-Lee	dbp:width	"30.0"^^ns86:perCent ;
+	dbp:otherNames	"TimBL"@en ,
+		"TBL"@en ;
+	dbp:quote	"\"He wove the World Wide Web and created a mass medium for the 21st century. The World Wide Web is Berners-Lee's alone. He designed it. He loosed it on the world. And he more than anyone else has fought to keep it open, nonproprietary and free.\""@en .
+@prefix ns87:	<https://www.vanityfair.com/news/2018/07/> .
+dbr:Tim_Berners-Lee	dbo:wikiPageExternalLink	ns87:the-man-who-created-the-world-wide-web-has-some-regrets ,
+		<http://www.w3.org/History/19921103-hypertext/hypertext/WWW/TheProject.html> ,
+		<http://info.cern.ch/hypertext/WWW/TheProject.html,> ,
+		<http://videolectures.net/iswc06_lee_itbl/> ,
+		<https://web.archive.org/web/20171109232547/http:/www.w3.org/People/Berners-Lee/Publications.html> ,
+		<http://computemagazine.com/man-who-invented-world-wide-web-gives-new-definition/> ,
+		<http://news.bbc.co.uk/2/hi/technology/4132752.stm> ,
+		<http://www.technologyreview.com/Infotech/13784/> ,
+		<http://www.w3.org/People/Berners-Lee/> ;
+	dbp:alt	"Sir Tim Berners Lee arriving at the Guildhall to receive the Honorary Freedom of the City of London"@en ;
+	dbp:awards	dbr:Member_of_the_National_Academy_of_Sciences ,
+		dbr:Turing_Award ,
+		dbr:Order_of_Merit ,
+		dbr:ACM_Software_System_Award ,
+		dbr:Queen_Elizabeth_Prize_for_Engineering ;
+	dbp:birthDate	"1955-06-08"^^xsd:date ;
+	dbo:award	dbr:Turing_Award ,
+		dbr:Order_of_Merit ,
+		dbr:Queen_Elizabeth_Prize ,
+		dbr:ACM_Software_System_Award ,
+		dbr:Foreign_Associate_of_the_National_Academy_of_Sciences ;
+	dbp:birthName	"Timothy John Berners-Lee"@en ;
+	dbp:parents	dbr:Mary_Lee_Woods ,
+		dbr:Conway_Berners-Lee ;
+	dbo:birthName	"Timothy John Berners-Lee"@en ;
+	dbp:education	<http://dbpedia.org/resource/The_Queen\u0027s_College,_Oxford> ;
+	dbo:education	<http://dbpedia.org/resource/The_Queen\u0027s_College,_Oxford> ;
+	dbp:children	2 ;
+	dbp:spouse	"Nancy Carlson"@en ,
+		dbr:Rosemary_Leith ,
+		""@en ,
+		2014 ,
+		2011 ,
+		1990 ;
+	dbo:birthYear	"1955"^^xsd:gYear ;
+	dbo:spouse	dbr:Rosemary_Leith ;
+	dbp:honorificPrefix	"Professor Sir"@en ;
+	dbo:alias	"TBL"@en ,
+		"TimBL"@en ;
+	dbo:wikiPageID	30034 ;
+	dbo:wikiPageRevisionID	986133960 ;
+	dbo:wikiPageWikiLink	dbr:Qatar_Computing_Research_Institute ,
+		dbr:Ferndown ,
+		dbc:Massachusetts_Institute_of_Technology_faculty ,
+		<http://dbpedia.org/resource/St_James\u0027s_Palace> ,
+		dbr:Wimborne_Minster ,
+		dbc:Internet_pioneers ,
+		dbr:NeXT_Computer ,
+		dbr:Research_fellow ,
+		dbc:Knights_Commander_of_the_Order_of_the_British_Empire ,
+		dbr:Nigel_Shadbolt ,
+		dbr:University_of_Manchester ,
+		dbc:Tim_Berners-Lee ,
+		dbc:World_Wide_Web_Consortium ,
+		<http://dbpedia.org/resource/Data.gov.uk> ,
+		dbr:Colehill ,
+		dbr:Broadband_Commission_for_Sustainable_Development ,
+		dbc:MacArthur_Fellows ,
+		<http://dbpedia.org/resource/Department_of_Computer_Science,_University_of_Oxford> ,
+		dbr:NeXTSTEP ,
+		dbc:People_associated_with_CERN ,
+		dbc:Fellows_of_the_Royal_Society_of_Arts ,
+		dbr:Open_Data_Institute ,
+		dbr:Encrypted_Media_Extensions ,
+		dbr:Employment ,
+		dbr:ENQUIRE ,
+		dbr:Internet_service_provider ,
+		dbr:Unitarian_Universalism ,
+		dbr:Internet_Governance_Forum ,
+		dbr:Hypertext ,
+		<http://dbpedia.org/resource/Sgt._Pepper\u0027s_Lonely_Hearts_Club_Band> ,
+		dbc:English_Unitarians ,
+		dbr:Plessey ,
+		dbr:Computer_network ,
+		<http://dbpedia.org/resource/Category:Members_of_the_Department_of_Computer_Science,_University_of_Oxford> ,
+		<http://dbpedia.org/resource/File:This_is_for_Everyone.jpg> ,
+		<http://dbpedia.org/resource/File:Tim_Berners-Lee.jpg> ,
+		<http://dbpedia.org/resource/File:Timbernerslee.jpg> ,
+		dbc:Academics_of_the_University_of_Southampton ,
+		<http://dbpedia.org/resource/Category:People_from_Barnes,_London> ,
+		dbc:Semantic_Web_people ,
+		dbc:Unitarian_Universalists ,
+		<http://dbpedia.org/resource/File:Berners-Lee_announcing_W3F.jpg> ,
+		dbr:Rosemary_Leith ,
+		dbr:Ferranti_Mark_1 ,
+		<http://dbpedia.org/resource/File:At_the_Science_Museum_for_the_Web@30_event,_March_2019_23.jpg> ,
+		dbr:London_Stadium ,
+		dbr:Ordnance_Survey ,
+		dbr:Domain_Name_System ,
+		dbr:Greenhouse_gas ,
+		dbc:People_educated_at_Emanuel_School ,
+		dbc:Members_of_the_Order_of_Merit ,
+		dbc:Fellows_of_the_American_Academy_of_Arts_and_Sciences ,
+		dbr:Transmission_Control_Protocol ,
+		dbr:WYSIWYG ,
+		dbr:Intel ,
+		dbr:Direct_grant_grammar_school ,
+		dbc:English_inventors ,
+		dbc:UNESCO_Niels_Bohr_Medal_recipients ,
+		dbr:Conway_Berners-Lee ,
+		dbr:Queen_Elizabeth_Prize_for_Engineering ,
+		<http://dbpedia.org/resource/Christ_Church,_Oxford> ,
+		dbr:Sir ,
+		dbr:University_of_Southampton ,
+		dbr:Massachusetts_Institute_of_Technology ,
+		dbr:Anglicanism ,
+		<http://dbpedia.org/resource/Category:Fellows_of_Christ_Church,_Oxford> ,
+		dbr:Culture_of_the_United_Kingdom ,
+		dbc:Hypertext_Transfer_Protocol ,
+		dbr:ACM_Software_System_Award ,
+		dbr:Facebook ,
+		<http://dbpedia.org/resource/Peter_Blake_(artist)> ,
+		<http://dbpedia.org/resource/2004_New_Year_Honours> ,
+		dbr:List_of_fellows_of_the_Royal_Society_elected_in_2001 ,
+		dbr:Manchester_Mark_1 ,
+		dbr:Trustee ,
+		dbr:Semantic_Web ,
+		dbr:WorldWideWeb ,
+		dbr:Remote_procedure_call ,
+		dbr:World_Wide_Web ,
+		<http://dbpedia.org/resource/Server_(computing)> ,
+		dbr:Fellow ,
+		dbc:English_expatriates_in_the_United_States ,
+		dbc:Fellows_of_the_Royal_Academy_of_Engineering ,
+		dbr:Harvard_University ,
+		dbr:Electronic_Frontier_Foundation ,
+		dbr:Uniform_Resource_Identifier ,
+		dbr:British_undergraduate_degree_classification ,
+		dbr:List_of_awards_and_honours_received_by_Tim_Berners-Lee ,
+		dbr:Net_neutrality ,
+		dbr:Google ,
+		<http://dbpedia.org/resource/Vanity_Fair_(magazine)> ,
+		dbc:Former_Anglicans ,
+		dbr:Gordon_Brown ,
+		<http://dbpedia.org/resource/Solid_(web_decentralization_project)> ,
+		dbr:Microsoft ,
+		dbr:Free_Software_Foundation ,
+		dbr:Elizabeth_II ,
+		dbr:Turing_Award ,
+		dbr:Independent_school ,
+		dbr:Digital_rights_management ,
+		dbr:Mary_Lee_Woods ,
+		dbr:Shuji_Nakamura ,
+		dbr:Defective_by_Design ,
+		<http://dbpedia.org/resource/State_(website)> ,
+		<http://dbpedia.org/resource/Category:Alumni_of_The_Queen\u0027s_College,_Oxford> ,
+		dbr:Chapel_Royal ,
+		dbr:Internet ,
+		dbr:Geneva ,
+		<http://dbpedia.org/resource/Category:Fellows_of_The_Queen\u0027s_College,_Oxford> ,
+		dbr:Real-time_computing ,
+		<http://dbpedia.org/resource/Category:1955_births> ,
+		dbr:Millennium_Technology_Prize ,
+		dbr:Ford_Foundation ,
+		dbr:East_Dorset ,
+		dbc:Fellows_of_the_Royal_Society ,
+		dbc:Foreign_associates_of_the_National_Academy_of_Sciences ,
+		<http://dbpedia.org/resource/Orders,_decorations,_and_medals_of_the_United_Kingdom> ,
+		dbc:Living_people ,
+		dbr:Mike_Berners-Lee ,
+		dbc:Royal_Medal_winners ,
+		dbr:Member_of_the_National_Academy_of_Sciences .
+@prefix ns88:	<http://dbpedia.org/resource/Time_100:> .
+dbr:Tim_Berners-Lee	dbo:wikiPageWikiLink	ns88:_The_Most_Important_People_of_the_Century ,
+		dbr:Bachelor_of_Arts ,
+		dbr:MeWe ,
+		dbr:University_of_Oxford ,
+		dbr:Open-source_model ,
+		dbc:Freemen_of_the_City_of_London ,
+		<http://dbpedia.org/resource/The_Queen\u0027s_College,_Oxford> ,
+		dbr:World_Health_Organization ,
+		<http://dbpedia.org/resource/Daemon_(computing)> ,
+		<http://dbpedia.org/resource/Category:Recipients_of_the_Order_of_the_Cross_of_Terra_Mariana,_1st_Class> ,
+		dbr:MIT_Center_for_Collective_Intelligence ,
+		dbr:Hypertext_Transfer_Protocol ,
+		dbr:Government_of_the_United_Kingdom ,
+		dbr:The_Times ,
+		dbr:CERN ,
+		<http://dbpedia.org/resource/File:First_Web_Server.jpg> ,
+		dbr:Web_browser ,
+		dbr:World_Wide_Web_Foundation ,
+		dbc:Foreign_associates_of_the_National_Academy_of_Engineering ,
+		dbr:Robert_Cailliau ,
+		dbr:Television_set ,
+		dbr:Railfan ,
+		dbr:Poole ,
+		dbr:Order_of_Merit ,
+		dbr:Alliance_for_Affordable_Internet ,
+		dbr:Yale_University ,
+		dbr:Web_Science_Trust ,
+		dbr:Contract_for_the_Web ,
+		dbc:Turing_Award_laureates ,
+		dbc:Webby_Award_winners ,
+		dbr:CERN_httpd ,
+		dbr:MIT_Computer_Science_and_Artificial_Intelligence_Laboratory ,
+		dbr:Emanuel_School ,
+		dbc:English_computer_scientists ,
+		dbc:Fellows_of_the_British_Computer_Society ,
+		dbr:World_Wide_Web_Consortium .
+@prefix dbt:	<http://dbpedia.org/resource/Template:> .
+dbr:Tim_Berners-Lee	dbp:wikiPageUsesTemplate	dbt:Telecommunications ,
+		dbt:Infobox_scientist ,
+		dbt:Youtube ,
+		dbt:Quotation ,
+		dbt:Snd ,
+		dbt:Worldcat_id ,
+		dbt:Post-nominals ,
+		dbt:S-start ,
+		dbt:S-bef ,
+		dbt:S-end ,
+		dbt:S-aft ,
+		dbt:Internet_Hall_of_Fame ,
+		dbt:Prince_of_Asturias_Award_for_Technical_and_Scientific_Research ,
+		dbt:S-ttl ,
+		dbt:Charles_Stark_Draper_Prize ,
+		dbt:Reflist ,
+		dbt:C-SPAN ,
+		dbt:Authority_control ,
+		dbt:Infobox_person ,
+		dbt:Pp-semi-vandalism ,
+		dbt:Quote_box ,
+		dbt:IMDb_name ,
+		dbt:FRS_2001 ,
+		dbt:Url ,
+		dbt:Portal_bar ,
+		dbt:Birth_date_and_age ,
+		dbt:Use_British_English ,
+		dbt:Use_dmy_dates ,
+		dbt:Short_description ,
+		dbt:Cite_magazine ,
+		dbt:Commons_category ,
+		dbt:Turing_Award_laureates ,
+		dbt:Pp-move-indef ,
+		dbt:ISBN ,
+		dbt:Wikiquote ,
+		dbt:TED_speaker ,
+		dbt:Main ;
+	dbo:wikiPageLength	"45986"^^xsd:nonNegativeInteger ;
+	dbp:title	"Millennium Technology Prize winner"@en .
+dbr:World_Wide_Web_Consortium	dbp:leaderName	dbr:Tim_Berners-Lee ;
+	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Search_engine	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Webby_Award	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:East_Sheen	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:List_of_University_of_Michigan_alumni	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Tongeren	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Proposed_directive_on_the_patentability_of_computer-implemented_inventions	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:HyperCard	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Interface_Builder	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Internet_Explorer_7	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Internet_Explorer_8	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Open_data	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:NeXTSTEP	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/Timeline_of_computing_1980\u20131989>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Internet_Hall_of_Fame	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/Computers,_Freedom_and_Privacy_Conference>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Timeline_of_file_sharing	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Mundaneum	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Open_standard	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Steve_Bratt	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Peter_William_Armstrong	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:ArsDigita_Prize	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Pinkerton_Lecture	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Nicola_Pellow	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Physics	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Operating_system	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/1955>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/1980>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Fake_news	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Heriot-Watt_University	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/History_of_Apple_Inc.>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Albert_Hofmann	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:AI_takeovers_in_popular_culture	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:DARPA_Agent_Markup_Language	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/Open_Source_(radio_show)>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:USENIX	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Ray_and_Maria_Stata_Center	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:List_of_Turing_Award_laureates_by_university_affiliation	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Eolas	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/Mark_P._McCahill>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:World_Wide_Web_Foundation	dbp:keyPeople	dbr:Tim_Berners-Lee ;
+	dbo:foundedBy	dbr:Tim_Berners-Lee ;
+	dbo:keyPerson	dbr:Tim_Berners-Lee ;
+	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/David_Berry_(inventor)>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:OpenCorporates	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Web_directory	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Clean_URL	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:HTTPRange-14	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Queen_Elizabeth_Prize_for_Engineering	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Web_Content_Accessibility_Guidelines	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/Albert_Medal_(Royal_Society_of_Arts)>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Sir_Frank_Whittle_Medal	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Simon_Coombs	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:List_of_people_with_surname_Lee	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/Microcosm_(CERN)>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Michael_Richard_Lynch	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:History_of_the_Internet	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/1980s>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Culture_of_the_United_Kingdom	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:SGMLguid	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Comparison_of_document-markup_languages	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/List_of_fellows_of_the_Royal_Society_A,_B,_C>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/Brian_Carpenter_(engineer)>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Paul_Kunz	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Open_data_in_the_United_Kingdom	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Unitarianism	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Science_and_technology_in_the_United_Kingdom	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Timeline_of_artificial_intelligence	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:List_of_English_people	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Edward_Snowden	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/2010_Nobel_Peace_Prize>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/2013_in_science>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Jim_Balsillie	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Net_neutrality_in_the_United_States	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/Harold_O\u0027Neal>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:History_of_graphic_design	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/List_of_Unitarians,_Universalists,_and_Unitarian_Universalists>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Ro_Khanna	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Vint_Cerf	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Steve_Jobs	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Information_extraction	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:List_of_people_from_Massachusetts	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Anti-Americanism	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/PRISM_(surveillance_program)>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Knowledge_extraction	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Social_web	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Dave_Raggett	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Robert_Cailliau	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Notation3	dbp:owner	dbr:Tim_Berners-Lee ;
+	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Mohammed_bin_Rashid_Al_Maktoum_Knowledge_Foundation	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Intel	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:England	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/1955_in_science>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Culture_of_England	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Cessy	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/Lexington,_Massachusetts>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:TAT-8	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:November_12	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Paul_Otlet	dbo:influenced	dbr:Tim_Berners-Lee ;
+	dbp:influenced	dbr:Tim_Berners-Lee ;
+	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:List_of_military_inventions	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:XHTML	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/1991_in_the_United_Kingdom>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Mohammed_bin_Rashid_Al_Maktoum	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Eelco_van_Asperen	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:DBpedia	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Code_Club	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Front-end_web_development	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Irv_Drasnin	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/American_Computer_&_Robotics_Museum>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:MIT_Center_for_Collective_Intelligence	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Dynatext	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Les_Horribles_Cernettes	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Weaving_the_Web	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee ;
+	dbp:author	dbr:Tim_Berners-Lee ;
+	dbo:author	dbr:Tim_Berners-Lee .
+@prefix ns90:	<http://dbpedia.org/resource/Glut:> .
+ns90:_Mastering_Information_Through_the_Ages	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:First_International_Conference_on_the_World-Wide_Web	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Library_for_WWW_in_Perl	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/Solid_(web_decentralization_project)>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Web_life	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Named_graph	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Wendy_Hall	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Henry_Rzepa	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:NCSA_HTTPd	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Web_for_Schools	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/Mike_Harris_(entrepreneur)>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:World_Wide_Web_Virtual_Library	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Timeline_of_Geneva	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:IEEE_Koji_Kobayashi_Computers_and_Communications_Award	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Evans_Wadongo	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Dan_Everard	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Francois_Fluckiger	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:University_of_Oxford	dbp:caption	dbr:Tim_Berners-Lee ;
+	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/FOAF_(ontology)>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:World_Wide_Web	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Web_server	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Twitter	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/Web_2.0>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Facebook	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Ora_Lassila	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Linked_data	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/H\u00E5kon_Wium_Lie>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Massachusetts_Institute_of_Technology	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:August_6	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:HTML_element	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Markup_language	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Science_and_invention_in_Birmingham	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:List_of_British_innovations_and_discoveries	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:University_of_Kansas	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Wimborne_Minster	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:June_1955	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Computational_particle_physics	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Linux_user_group	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/Web_2.0_Summit>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Prix_Ars_Electronica	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Rule_of_least_power	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:HTML_Working_Group	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:List_of_Massachusetts_Institute_of_Technology_faculty	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Absolute_Genius_with_Dick_and_Dom	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:The_Unfinished_Revolution	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Darcy_DiNucci	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Charles_Stark_Draper_Prize	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:List_of_British_scientists	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/Department_of_Computer_Science,_University_of_Oxford>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Uniform_Resource_Characteristic	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Jon_Postel	dbo:influenced	dbr:Tim_Berners-Lee ;
+	dbp:influenced	dbr:Tim_Berners-Lee ;
+	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Web_content	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Internet	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/1990>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/1988>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:June_8	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Douglas_Engelbart	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/Meanings_of_minor_planet_names:_13001\u201314000>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Outline_of_software_engineering	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Campus_Party	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/1991_in_science>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:List_of_programmers	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/Timeline_of_United_States_inventions_(1946\u20131991)>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Timeline_of_e-commerce	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/Ciudad_de_las_Ideas_(conference)>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Text_annotation	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/1955_in_philosophy>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Uniform_Resource_Identifier	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Web_navigation	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Libwww	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee ;
+	dbp:author	dbr:Tim_Berners-Lee ;
+	dbo:author	dbr:Tim_Berners-Lee .
+dbr:Draft_Communications_Data_Bill	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Semantic_publishing	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Comparison_of_web_browsers	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Alan_Emtage	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Library_of_Congress_Subject_Headings	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/2004_New_Year_Honours>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:EPIC_2014	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Advogato	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:ENQUIRE	dbp:inventor	dbr:Tim_Berners-Lee ;
+	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/2001_in_science>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/List_of_people_from_Concord,_Massachusetts>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Public_Sector_Transparency_Board	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/1999_in_philosophy>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:How_We_Got_to_Now	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/Linux.conf.au>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:History_of_communication	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:VRML	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Open_University	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:The_Centre_for_Computing_History	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:March_12	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Digital_Revolution	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Mobile_web	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Cats_and_the_Internet	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/1980_in_science>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:LinkCycle	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/2004_in_science>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Andrew_Viterbi	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Combating_Online_Infringement_and_Counterfeits_Act	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/1989_in_science>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:List_of_websites_founded_before_1995	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Digitality	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Online_wallet	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Aaron_Swartz	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/Toru_Takahashi_(Internet)>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Japan_Prize	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:MIT150	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Mike_Berners-Lee	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Massimo_Marchiori	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/Ian_Ritchie_(entrepreneur)>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/Cwm_(software)>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:AOLpress	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Singapore_Academy_of_Law	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:The_Internet_Age	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Tim_berners_lee	dbo:wikiPageRedirects	dbr:Tim_Berners-Lee ;
+	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:NBC_Olympic_broadcasts	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:History_of_Unitarianism	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/1991>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Ferranti_Mark_1	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Directive_on_Copyright_in_the_Digital_Single_Market	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Culture_of_Dorset	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Gottlieb_Duttweiler_Institute	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:ACM_Software_System_Award	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:International_Conference_on_Service_Oriented_Computing	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Andrew_Pakula	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/Tim_(given_name)>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Worshipful_Company_of_Information_Technologists	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Alan_Kotok	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Net_neutrality	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Internet_manipulation	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Semantic_Web_Stack	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Raw_data	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/The_Queen\u0027s_College,_Oxford>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/Emeli_Sand\u00E9>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Universal_Edit_Button	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Novius_OS	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Line_Mode_Browser	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee ;
+	dbp:author	dbr:Tim_Berners-Lee ;
+	dbo:author	dbr:Tim_Berners-Lee .
+dbr:History_of_the_web_browser	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Project_Xanadu	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Text-based_web_browser	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Browser_wars	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:CERN_httpd	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee ;
+	dbp:author	dbr:Tim_Berners-Lee ;
+	dbo:author	dbr:Tim_Berners-Lee .
+dbr:ViolaWWW	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Erwise	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:WorldWideWeb	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee ;
+	dbo:developer	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/Helen_Alexander_(businesswoman)>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Tom_Bloxham	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Abu_Dhabi_Media_Summit	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Shuji_Nakamura	dbp:before	dbr:Tim_Berners-Lee ;
+	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Caroline_Hyde	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Linked_Data_Platform	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:James_Hendler	dbo:influencedBy	dbr:Tim_Berners-Lee ;
+	dbp:influences	dbr:Tim_Berners-Lee ;
+	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:List_of_honorary_fellows_of_the_British_Academy	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/Outline_of_human\u2013computer_interaction>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/1980s_in_science_and_technology>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:History_of_the_World_Wide_Web	dbp:inventor	dbr:Tim_Berners-Lee ;
+	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Ivan_Pope	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:History_of_hypertext	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:CSS	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:NeXT_Computer	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:List_of_rail_transport_modellers	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Ben_Ramalingam	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Conway_Berners-Lee	dbp:children	dbr:Tim_Berners-Lee ;
+	dbo:child	dbr:Tim_Berners-Lee ;
+	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Beecroft_Building	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Colehill	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/School_of_Electronics_and_Computer_Science,_University_of_Southampton>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Yardleys_School	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Scalable_Vector_Graphics	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Infobox	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/The_Innovators_(book)>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:List_of_computing_people	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:List_of_railfans	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:World_Wide_Web_Consortium__PersonFunction__1	dbo:person	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/.mobi>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/Internet_Research_(journal)>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Protests_against_SOPA_and_PIPA	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Public_Interest_Registry	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Social_machine	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Attack_of_the_Killer_App	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Timeline_of_web_search_engines	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Dril	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:The_Virtual_Revolution	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:List_of_advocates_of_basic_income	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Net_neutrality_in_India	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Marc_Andreessen	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Happy_List	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:British_Inspiration_Awards	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/W._Wallace_McDowell_Award>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+<http://dbpedia.org/resource/List_of_members_of_the_National_Academy_of_Sciences_(computer_and_information_sciences)>	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Marconi_Prize	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Slide_library	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:TBL	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee ;
+	dbo:wikiPageDisambiguates	dbr:Tim_Berners-Lee .
+dbr:Chrissie_Maher	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .
+dbr:Virtual_Library_museums_pages	dbo:wikiPageWikiLink	dbr:Tim_Berners-Lee .

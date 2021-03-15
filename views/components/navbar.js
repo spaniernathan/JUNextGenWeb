@@ -1,10 +1,10 @@
 const Handlebars = require('handlebars')
 
 const tmpl = `
-<nav class="navbar" role="navigation" aria-label="main navigation">
+<nav class="navbar is-primary" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
     <a class="navbar-item">
-      <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
+      <img src="/icons/PlayLister.svg" width="112" height="28">
     </a>
   </div>
 
@@ -15,12 +15,14 @@ const tmpl = `
       </a>
 
       {{#if currentUser.logged}}
-        <a class="navbar-item {{#if navbar.users}}is-active{{/if}}" href="/users">
-          Users
+        <a class="navbar-item {{#if navbar.songs}}is-active{{/if}}" href="/songs">
+          Songs
         </a>
-        
         <a class="navbar-item" href="/playlists">
           Playlists
+        </a>
+        <a class="navbar-item {{#if navbar.users}}is-active{{/if}}" href="/users">
+          Users
         </a>
       {{/if}}
 
@@ -46,9 +48,14 @@ const tmpl = `
     <div class="navbar-end">
       <div class="navbar-item">
         {{#if currentUser.logged}}
-          <a class="button is-primary" href="/profile">
-            <strong>Profile</strong>
-          </a>
+        <div class="buttons">
+            <a class="button is-primary" href="/profile">
+                <strong>Profile</strong>
+            </a>
+            <form action="/signout" method="POST">
+                <button class="button is-danger" type="submit">Log out</button>
+            </form>
+        </div>
         {{else}}
           <div class="buttons">
             <a class="button is-primary" href="/signup">

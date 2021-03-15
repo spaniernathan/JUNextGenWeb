@@ -1,5 +1,3 @@
-// Users router
-
 let express = require('express')
 const { models } = require('../../../models')
 const { authenticateMiddleware } = require('../../middlewares');
@@ -10,7 +8,7 @@ router
   .get('/users', authenticateMiddleware, (req, res) => {
     models.users.listUsers((err, rows) => {
       if (err) {
-        res.status(500).json({ "err": "internal server error" });
+        res.sendStatus(500);
         return
       }
       res.json(rows);
@@ -20,13 +18,13 @@ router
   .get('/users/:id', authenticateMiddleware, (req, res) => {
     models.users.getUserByID(req.params.id, (err, row) => {
       if (err) {
-        res.status(500).json({ "err": "internal server error" });
+        res.sendStatus(500);
         return
       }
       res.json(row);
     })
   })
-// Get user by ID playlists
+// Get user's playlists by UserID
   .get('/users/:id/playlists', authenticateMiddleware, (req, res) => {
     // if current user getUserPlaylists
     // else getPublicUserPlaylists

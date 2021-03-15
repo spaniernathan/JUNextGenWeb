@@ -1,7 +1,7 @@
 let { models } = require('../../../models');
-var express = require('express');
+let express = require('express');
 const { authenticateMiddleware } = require('../../middlewares');
-var router = express.Router();
+let router = express.Router();
 
 // Songs router
 router
@@ -9,7 +9,7 @@ router
         if (Object.keys(req.query).length === 0) {
             models.songs.listSongs((err, rows) => {
                 if (err) {
-                    res.status(500).json({ "err": "internal server error" });
+                    res.sendStatus(500);
                     return
                 }
                 res.json(rows);
@@ -19,7 +19,7 @@ router
             models.songs.searchSongs({ query }, (err, rows) => {
                 if (err) {
                     console.log(err)
-                    res.status(500).json({ "err": "internal server error" });
+                    res.sendStatus(500);
                     return
                 }
                 res.json(rows);
@@ -35,16 +35,16 @@ router
         }
         models.songs.setSong({ title, artist, album, duration, imageUrl: imageUrl || "" }, (err, rows) => {
             if (err) {
-                res.status(500).json({ "err": "internal server error" });
+                res.sendStatus(500);
                 return
             }
-            res.status(200).json({ "msg": "song successfully created "});
+            res.sendStatus(200);
         })
     })
     .get('/songs/:id', authenticateMiddleware, (req, res) => {
         models.songs.getSong(req.params.id, (err, row) => {
             if (err) {
-                res.status(500).json({ "err": "internal server error" });
+                res.sendStatus(500);
                 return
             }
             res.json(row);

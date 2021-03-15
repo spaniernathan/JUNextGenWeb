@@ -1,19 +1,22 @@
 <section class="section is-small">
     <div class="columns">
         <div class="column has-text-left">
-            <h1 class="title">{{playlist.name}}</h1>
-            <h2 class="subtitle">
-                {{playlist.description}}
-                <span class="tag is-info">{{playlist.userDisplayName}}</span>
-            </h2>
+            <h1 class="title">Songs</h1>
         </div>
-        {{#if playlist.owned}}
-        <div class="column has-text-right">
-            <form method="post" action="/playlist-delete/{{playlist.id}}">
-                <input class="is-danger button" type="submit" value="Delete playlist"/>
+        <div class="column has-text-right is-narrow">
+            <form method="get" action="/songs">
+                <div class="field has-addons">
+                    <div class="control">
+                        <input class="input" type="text" placeholder="Find a song" name="query">
+                    </div>
+                    <div class="control">
+                        <button class="button is-info" type="submit">
+                            Search
+                        </button>
+                    </div>
+                </div>
             </form>
         </div>
-        {{/if}}
     </div>
     <table class="table is-fullwidth">
         <thead>
@@ -27,7 +30,7 @@
         </tr>
         </thead>
         <tbody>
-        {{#each playlist.songs}}
+        {{#each songs}}
             <tr>
                 <th style="vertical-align: inherit;">
                     <figure class="image is-64x64">
@@ -38,7 +41,7 @@
                 <th style="vertical-align: inherit;">{{artist}}</th>
                 <th style="vertical-align: inherit;">{{album}}</th>
                 <th style="vertical-align: inherit;">{{fancyDuration duration}}</th>
-                <th style="vertical-align: inherit;">{{>addToPlaylistButton currentUser=../currentUser songId=id owned=../playlist.owned playlistId=../playlist.id}}</th>
+                <th style="vertical-align: inherit;">{{>addToPlaylistButton currentUser=../currentUser songId=id}}</th>
             </tr>
         {{/each}}
         </tbody>

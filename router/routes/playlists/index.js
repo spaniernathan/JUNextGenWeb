@@ -1,12 +1,14 @@
-var express = require('express')
+let express = require('express')
 const { models } = require('../../../models')
-var router = express.Router()
+let router = express.Router()
 
 // Playlists
 router.get('/playlists', (req, res) => {
     models.playlists.listPublicPlaylists((err, playlistRows) => {
         if (err) {
-            console.log(err)
+            console.log('GET /playlists')
+            console.log('listPublicPlaylists')
+            console.log('error: ', err)
             // TODO: Handle error
         }
         res.render("playlists.hbs", {
@@ -14,7 +16,7 @@ router.get('/playlists', (req, res) => {
                 playlists: true
             },
             currentUser: { ...req.session.currentUser },
-            playlists: [...playlistRows],
+            playlists: [ ...playlistRows ],
         });
     })
 })
@@ -33,24 +35,35 @@ router.post('/playlist-create', (req, res) => {
         description,
         pub: pub === 'on',
         userId: req.session.currentUser.id,
-        imgUrl,
+        imgUrl: imgUrl || "",
     }, (err, playlistId) => {
         if (err) {
-            console.log(err)
+            console.log('POST /playlist-create')
+            console.log('setPlaylist')
+            console.log('error: ', err)
             // TODO: Handle error
         } else {
             models.playlists.getUserPlaylists(req.session.currentUser.id, (err, row) => {
-                req.session.currentUser.playlists = row
-                res.redirect(`/playlist/${playlistId}`)
+                if (err) {
+                    console.log('POST /playlist-create')
+                    console.log('getUserPlaylists')
+                    console.log('error: ', err)
+                    // TODO: Handle error
+                } else {
+                    req.session.currentUser.playlists = row
+                    res.redirect(`/playlist/${playlistId}`)
+                }
             })
         }
     })
 })
 
 router.get('/playlist/:id', (req, res) => {
-    models.playlists.getPlaylistSongs(req.params.id, (err, rows) => {
+    models.playlists.getPlaylistSongs(req.params.id, (err, songs) => {
         if (err) {
-            console.log(err)
+            console.log(`GET /playlist/${req.params.id}`)
+            console.log('getPlaylistSongs')
+            console.log('error: ', err)
             // TODO: Handle error
         } else {
             let payload = {
@@ -58,29 +71,37 @@ router.get('/playlist/:id', (req, res) => {
                     playlists: true
                 },
                 currentUser: { ...req.session.currentUser },
-                playlist: {}
+                playlist: {},
             };
-            if (rows.length === 0) {
-                models.playlists.getPlaylist(req.params.id, (err, row) => {
+            if (songs.length === 0) {
+                models.playlists.getPlaylist(req.params.id, (err, playlist) => {
                     if (err) {
-                        console.log(err)
+                        console.log(`GET /playlist/${req.params.id}`)
+                        console.log('getPlaylist')
+                        console.log('error: ', err)
                         // TODO: HANDLE ERROR
                     } else {
                         payload.playlist = {
-                            name: row["name"],
-                            description: row["description"],
-                            imgUrl: row["imgUrl"],
+                            id: playlist["id"],
+                            name: playlist["name"],
+                            description: playlist["description"],
+                            imgUrl: playlist["imgUrl"],
+                            userDisplayName: playlist["userDisplayName"],
                             songs: [],
+                            owned: req.session.currentUser.id === playlist["user_id"]
                         }
                         res.render("playlist.hbs", payload)
                     }
                 })
             } else {
                 payload.playlist = {
-                    name: rows[0]["name"],
-                    description: rows[0]["description"],
-                    imgUrl: rows[0]["imgUrl"],
-                    songs: rows.reduce((prev, curr) => {
+                    id: songs[0]["id"],
+                    name: songs[0]["name"],
+                    description: songs[0]["description"],
+                    imgUrl: songs[0]["imgUrl"],
+                    userDisplayName: songs[0]["userDisplayName"],
+                    owned: req.session.currentUser.id === songs[0]["user_id"],
+                    songs: songs.reduce((prev, curr) => {
                         return [...prev, {
                             id: curr["songId"],
                             title: curr["title"],
@@ -103,10 +124,49 @@ router.post('/playlist/:playlistId/:songId', (req, res) => {
         playlistId: req.params.playlistId,
     }, (err, _) => {
         if (err) {
-            console.log(err)
+            console.log('POST /playlist/:playlistId/:songId')
+            console.log('addSong')
+            console.log('error: ', err)
             // TODO: Handle error
         }
         res.redirect(req.session.previousPath)
+    })
+})
+
+router.post('/playlist-delete/:playlistId/:songId', (req, res) => {
+    models.playlists.removeSong({
+        songId: req.params.songId,
+        playlistId: req.params.playlistId,
+    }, (err, _) => {
+        if (err) {
+            console.log('POST /playlist-delete/:playlistId/:songId')
+            console.log('removeSong')
+            console.log('error: ', err)
+            // TODO: Handle error
+        }
+        res.redirect(req.session.previousPath)
+    })
+})
+
+router.post('/playlist-delete/:playlistId', (req, res) => {
+    models.playlists.deletePlaylist(req.params.playlistId, (err, _) => {
+        if (err) {
+            console.log('POST /playlist-delete/:playlistId')
+            console.log('deletePlaylist')
+            console.log('error: ', err)
+            // TODO: Handle error
+        }
+        models.playlists.getUserPlaylists(req.session.currentUser.id, (err, row) => {
+            if (err) {
+                console.log('POST /playlist-delete/:playlistId')
+                console.log('getUserPlaylists')
+                console.log('error: ', err)
+                // TODO: Handle error
+            } else {
+                req.session.currentUser.playlists = row
+                res.redirect('/')
+            }
+        })
     })
 })
 
