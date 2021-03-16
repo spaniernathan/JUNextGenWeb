@@ -28,7 +28,7 @@ router.post("/auth/login", (req, res) => {
         jwt.sign({ id: user.id }, SECRET_KEY, (err, access_token) => {
           if (err) res.sendStatus(500);
           else {
-            jwt.sign({ sub: user.id, preferred_username: user.username }, SECRET_KEY, (err, id_token) => {
+            jwt.sign({ sub: user.id, preferred_username: user.displayname }, SECRET_KEY, (err, id_token) => {
               if (err) res.sendStatus(500);
               else {
                 res.status(200).json({
@@ -44,5 +44,9 @@ router.post("/auth/login", (req, res) => {
     });
   });
 });
+
+router.post('/auth/signup', (req, res) => {
+
+})
 
 module.exports = router

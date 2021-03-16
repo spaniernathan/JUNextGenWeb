@@ -1,6 +1,7 @@
 const jwt = require("jsonwebtoken");
+const { models } = require('../../models');
 
-const SECRET_KEY = "supersecretkey"
+const SECRET_KEY = "supersecretkey";
 
 const authenticateMiddleware = (req, res, next) => {
     const { authorization } = req.headers;
@@ -14,6 +15,24 @@ const authenticateMiddleware = (req, res, next) => {
     });
   };
 
+const userOwnPlaylist = (req, res, next) => {
+    const { playlistId } = req.params
+    if (!!playlistId) {
+        models.playlists.getPlaylist(playlistId, (err, playlist) => {
+            if (err) {
+                console.log('MIDDLEWARE userOwnPlaylist')
+                console.log('getPlaylist')
+                console.log(err)
+                res.sendStatus(500)
+            }
+            playlist.user_id === req.user.id ? next() : res.sendStatus(403)
+        })
+    } else {
+        res.sendStatus(400)
+    }
+}
+
 module.exports = {
     authenticateMiddleware,
+    userOwnPlaylist,
 }

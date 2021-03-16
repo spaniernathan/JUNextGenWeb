@@ -2,7 +2,7 @@
 
 let express = require('express');
 const { models } = require('../../../models');
-const { authenticateMiddleware } = require('../../middlewares');
+const { authenticateMiddleware, userOwnPlaylist } = require('../../middlewares');
 let router = express.Router();
 
 router
@@ -12,90 +12,124 @@ router
       models.playlists.listPublicPlaylists((err, rows) => {
         if (err) {
           res.sendStatus(500);
-          return
+          console.log('API GET /playlists')
+          console.log('listPublicPlaylists')
+          console.log(err)
+        } else {
+          res.json(rows);
         }
-        res.json(rows);
       })
     } else {
       const { query } = req.query;
       models.playlists.searchPublicPlaylists({ query }, (err, rows) => {
         if (err) {
           res.sendStatus(500);
-          return
+          console.log('API GET /playlists')
+          console.log('searchPublicPlaylists')
+          console.log(err)
+        } else {
+          res.json(rows);
         }
-        res.json(rows);
       })
     }
   })
   // Create new playlist
   .post('/playlists', authenticateMiddleware, (req, res) => {
-    // complete payload
-    models.playlists.setPlaylist({}, (err, row) => {
+    const { name, description, pub, imgUrl } = req.body;
+    if (!name || !description || !pub) {
+      res.status(400).json({'message': `missing name, description or pub`})
+    }
+    models.playlists.setPlaylist({name, description, pub, userId: req.user.id, imgUrl: imgUrl || ''}, (err, row) => {
       if (err) {
+        console.log('API POST /playlists')
+        console.log('setPlaylist')
+        console.log(err)
         res.sendStatus(500);
-        return
+      } else {
+        res.sendStatus(201)
       }
     })
-    res.json({ "message": `create playlist for current user` })
   })
   // Get playlist by ID
-  .get('/playlists/:id', authenticateMiddleware, (req, res) => {
-    models.playlists.getPlaylist(req.params.id, (err, row) => {
+  .get('/playlists/:playlistId', authenticateMiddleware, (req, res) => {
+    models.playlists.getPlaylist(req.params.playlistId, (err, row) => {
       if (err) {
         res.sendStatus(500);
-        return
+        console.log('API GET /playlists/:playlistId')
+        console.log('getPlaylist')
+        console.log(err)
+      } else {
+        res.json(row);
       }
-      res.json(row);
     })
   })
   // Update Playlist
-  .put('/playlists/:id', authenticateMiddleware, (req, res) => {
-    // if playlist is owned by the user
-    res.json({ "message": `update playlist: ${req.params.id}` })
-  })
-  // Delete playlist
-  .delete('/playlists/:id', authenticateMiddleware, (req, res) => {
-    models.playlists.getUserPlaylists(req.user.id, (err, rows) => {
+  .put('/playlists/:playlistId', [authenticateMiddleware, userOwnPlaylist], (req, res) => {
+    const {description, imgUrl, name, pub} = req.body;
+    models.playlists.updatePlaylist({playlistId: req.params.playlistId, description, imgUrl, name, pub}, (err, row) => {
       if (err) {
-        console.error(err)
         res.sendStatus(500);
-        return;
+        console.log('API PUT /playlists/:playlistId')
+        console.log('updatePlaylist')
+        console.log(err)
       } else {
-        rows.forEach(p => {
-          console.log(p.id, ' === ', req.params.id)
-          if (p.id === req.params.id) {
-            models.playlists.deletePlaylist(req.params.id, (err, row) => {
-              if (err) {
-                console.error(err)
-                res.sendStatus(500);
-                return;
-              } else {
-                res.json({ "msg": "success" });
-                return;
-              }
-            })
-          }
-        });
+        res.sendStatus(200);
       }
     })
-    res.sendStatus(403);
-    return;
+  })
+  // Delete playlist
+  .delete('/playlists/:playlistId', [authenticateMiddleware, userOwnPlaylist], (req, res) => {
+    models.playlists.deletePlaylist(req.params.playlistId, (err, row) => {
+      if (err) {
+        console.log('API DELETE /playlists/:playlistId')
+        console.log('deletePlaylist')
+        console.log(err)
+        res.sendStatus(500);
+      } else {
+        res.sendStatus(200);
+      }
+    })
   })
 
-  // Make plyalist private
-  .patch('/playlists/:id/hide', authenticateMiddleware, (req, res) => {
-    // if playlist is owned by the user
-    res.json({ "message": `update playlist: ${req.params.id}` })
+  // Make playlist private
+  .patch('/playlists/:playlistId/hide', [authenticateMiddleware, userOwnPlaylist], (req, res) => {
+    models.playlists.updatePlaylist({playlistId: req.params.playlistId, pub: false}, (err, _) => {
+      if (err) {
+        console.log('API PATCH /playlists/:playlistId/hide')
+        console.log('updatePlaylist')
+        console.log(err)
+        res.sendStatus(500);
+      } else {
+        res.sendStatus(200);
+      }
+    })
   })
-  // Make plyalist public
-  .patch('/playlists/:id/unhide', authenticateMiddleware, (req, res) => {
-    // if playlist is owned by the user
-    res.json({ "message": `update playlist: ${req.params.id}` })
+  // Make playlist public
+  .patch('/playlists/:playlistId/unhide', [authenticateMiddleware, userOwnPlaylist], (req, res) => {
+    models.playlists.updatePlaylist({playlistId: req.params.playlistId, pub: true}, (err, _) => {
+      if (err) {
+        console.log('API PATCH /playlists/:playlistId/unhide')
+        console.log('updatePlaylist')
+        console.log(err)
+        res.sendStatus(500);
+      } else {
+        res.sendStatus(200);
+      }
+    })
   })
   // Add a song to a playlist
-  .post('/playlists/:playlistId/:songId', authenticateMiddleware, (req, res) => {
-    // if playlist is owned by the user
-    res.json({ "message": `add song: ${req.params.songId} to playlist ${req.params.playlistId}` })
+  .post('/playlists/:playlistId/:songId', [authenticateMiddleware, userOwnPlaylist], (req, res) => {
+    const { songId, playlistId } = req.params;
+    models.playlists.addSong({songId, playlistId}, (err, row) => {
+      if (err) {
+        console.log('API POST /playlists/:playlistId/:songId')
+        console.log('addSong')
+        console.log(err)
+        res.sendStatus(500);
+      } else {
+        res.sendStatus(200);
+      }
+    })
   })
 
 module.exports = router

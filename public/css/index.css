@@ -8,3 +8,7 @@
     border:none;
     background-color: #F5F5F5;
 }
+
+.body-style {
+    min-height: 100vh;
+}

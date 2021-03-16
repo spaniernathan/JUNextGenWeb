@@ -77,14 +77,6 @@ let PlaylistsDB = class PlaylistsDatabase {
         })
     }
 
-    listPlaylists = (callback) => {
-        return this.db.all(`SELECT p.*, users.displayname AS userDisplayName \
-        FROM playlists AS p \
-        INNER JOIN users ON users.id = p.user_id`, (err, rows) => {
-            callback(err, rows)
-        })
-    }
-
     listPublicPlaylists = (callback) => {
         return this.db.all(`SELECT p.*, users.displayname AS userDisplayName \
         FROM playlists AS p \
@@ -109,6 +101,20 @@ let PlaylistsDB = class PlaylistsDatabase {
             this.db.run(`DELETE FROM playlists_songs WHERE playlist_id = ?`, [id], (err, rows) => {
                 callback(err, rows)
             })
+        })
+    }
+
+    updatePlaylist = (payload, callback) => {
+        const {playlistId, description, imgUrl, name, pub} = payload;
+        return this.db.get(`SELECT * from playlists WHERE id = ?`, [playlistId], (err, playlist) => {
+            if (err) {
+                callback(err, null)
+            } else {
+                this.db.run(`UPDATE playlists SET description = ?, imgUrl = ?, name = ?, public = ? WHERE id = ?`,
+                    [description || playlist.description, imgUrl || playlist.imgUrl, name || playlist.name, pub || playlist.public, playlistId], (err, row) => {
+                        callback(err, row)
+                    })
+            }
         })
     }
 }
