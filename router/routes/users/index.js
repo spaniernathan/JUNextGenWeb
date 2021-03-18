@@ -5,31 +5,40 @@ let router = express.Router()
 router.get('/users', (req, res) => {
     models.users.listUsers((err, usersRows) => {
         if (err) {
+            console.log('GET /users')
+            console.log('listUsers')
             console.log(err)
-            // TODO: Handle error
+            req.flash('users', 'internal server error')
+            res.redirect('/users')
+        } else {
+            res.render("users.hbs", {
+                navbar: {
+                    users: true
+                },
+                currentUser: { ...req.session.currentUser },
+                users: [...usersRows],
+                message: req.flash('users')
+            });
         }
-        res.render("users.hbs", {
-            navbar: {
-                users: true
-            },
-            currentUser: { ...req.session.currentUser },
-            users: [...usersRows],
-        });
     })
 })
 
 router.get('/users/:id', (req, res) => {
     models.users.getUserByID(req.params.id, (err, userRow) => {
         if (err) {
+            console.log(`GET /users/${req.params.id}`)
+            console.log('getUserByID')
             console.log(err)
-            // TODO: Handle error
+            req.flash('users', 'internal server error')
+            res.redirect(`/users/${req.params.id}`)
         } else {
             const payload = {
                 navbar: {
                     users: true
                 },
                 currentUser: { ...req.session.currentUser },
-                user: {}
+                user: {},
+                message: req.flash('users')
             }
             const callback = (payload, rows) => {
                 payload.user = {
@@ -45,12 +54,15 @@ router.get('/users/:id', (req, res) => {
                         }]
                     }, []),
                 }
+                payload.message = req.flash('users')
                 res.render("user.hbs", payload);
             }
             const callbackUserPlaylist = (err, rows) => {
                 if (err) {
+                    console.log(`GET /users/${req.params.id}`)
                     console.log(err)
-                    // TODO: Handle error
+                    req.flash('users', 'internal server error')
+                    res.redirect(`/users/${req.params.id}`)
                 } else {
                     callback(payload, rows);
                 }
@@ -68,6 +80,7 @@ router.get('/profile', (req, res) => {
     const payload = {
         navbar: {},
         currentUser: { ...req.session.currentUser },
+        message: req.flash('users')
     };
     res.render('profile.hbs', payload);
 })

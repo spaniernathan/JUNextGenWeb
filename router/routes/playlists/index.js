@@ -8,16 +8,19 @@ router.get('/playlists', (req, res) => {
         if (err) {
             console.log('GET /playlists')
             console.log('listPublicPlaylists')
-            console.log('error: ', err)
-            // TODO: Handle error
+            console.log(err)
+            req.flash('playlists', 'internal server error')
+            res.redirect('/playlists')
+        } else {
+            res.render("playlists.hbs", {
+                navbar: {
+                    playlists: true
+                },
+                currentUser: { ...req.session.currentUser },
+                playlists: [ ...playlistRows ],
+                message: req.flash('playlists')
+            });
         }
-        res.render("playlists.hbs", {
-            navbar: {
-                playlists: true
-            },
-            currentUser: { ...req.session.currentUser },
-            playlists: [ ...playlistRows ],
-        });
     })
 })
 
@@ -25,37 +28,45 @@ router.get('/playlist-create', (req, res) => {
     res.render("createPlaylist.hbs", {
         navbar: {},
         currentUser: { ...req.session.currentUser },
+        message: req.flash('playlists')
     })
 })
 
 router.post('/playlist-create', (req, res) => {
     const { name, description, pub, imgUrl } = req.body;
-    models.playlists.setPlaylist({
-        name,
-        description,
-        pub: pub === 'on',
-        userId: req.session.currentUser.id,
-        imgUrl: imgUrl || "",
-    }, (err, playlistId) => {
-        if (err) {
-            console.log('POST /playlist-create')
-            console.log('setPlaylist')
-            console.log('error: ', err)
-            // TODO: Handle error
-        } else {
-            models.playlists.getUserPlaylists(req.session.currentUser.id, (err, row) => {
-                if (err) {
-                    console.log('POST /playlist-create')
-                    console.log('getUserPlaylists')
-                    console.log('error: ', err)
-                    // TODO: Handle error
-                } else {
-                    req.session.currentUser.playlists = row
-                    res.redirect(`/playlist/${playlistId}`)
-                }
-            })
-        }
-    })
+    if (!name || !description) {
+        req.flash('playlists', 'missing name or description');
+        res.redirect('/playlist-create');
+    } else {
+        models.playlists.setPlaylist({
+            name,
+            description,
+            pub: pub === 'on',
+            userId: req.session.currentUser.id,
+            imgUrl: imgUrl || "",
+        }, (err, playlistId) => {
+            if (err) {
+                console.log('POST /playlist-create')
+                console.log('setPlaylist')
+                console.log(err)
+                req.flash('playlists', 'internal server error')
+                res.redirect('/playlist-create')
+            } else {
+                models.playlists.getUserPlaylists(req.session.currentUser.id, (err, row) => {
+                    if (err) {
+                        console.log('POST /playlist-create')
+                        console.log('getUserPlaylists')
+                        console.log(err)
+                        req.flash('playlists', 'internal server error')
+                        res.redirect('/playlist-create')
+                    } else {
+                        req.session.currentUser.playlists = row
+                        res.redirect(`/playlist/${playlistId}`)
+                    }
+                })
+            }
+        })
+    }
 })
 
 router.get('/playlist/:id', (req, res) => {
@@ -63,8 +74,9 @@ router.get('/playlist/:id', (req, res) => {
         if (err) {
             console.log(`GET /playlist/${req.params.id}`)
             console.log('getPlaylistSongs')
-            console.log('error: ', err)
-            // TODO: Handle error
+            console.log(err)
+            req.flash('playlists', 'internal server error')
+            res.redirect(`/playlist/${req.params.id}`)
         } else {
             let payload = {
                 navbar: {
@@ -72,14 +84,16 @@ router.get('/playlist/:id', (req, res) => {
                 },
                 currentUser: { ...req.session.currentUser },
                 playlist: {},
+                message: req.flash('playlists')
             };
             if (songs.length === 0) {
                 models.playlists.getPlaylist(req.params.id, (err, playlist) => {
                     if (err) {
                         console.log(`GET /playlist/${req.params.id}`)
                         console.log('getPlaylist')
-                        console.log('error: ', err)
-                        // TODO: HANDLE ERROR
+                        console.log(err)
+                        req.flash('playlists', 'internal server error')
+                        res.redirect(`/playlist/${req.params.id}`)
                     } else {
                         payload.playlist = {
                             id: playlist["id"],
@@ -88,8 +102,9 @@ router.get('/playlist/:id', (req, res) => {
                             imgUrl: playlist["imgUrl"],
                             userDisplayName: playlist["userDisplayName"],
                             songs: [],
-                            owned: req.session.currentUser.id === playlist["user_id"]
+                            owned: req.session.currentUser.id === playlist["user_id"],
                         }
+                        payload.message = req.flash('playlists')
                         res.render("playlist.hbs", payload)
                     }
                 })
@@ -112,6 +127,7 @@ router.get('/playlist/:id', (req, res) => {
                         }]
                     }, []),
                 };
+                payload.message = req.flash('playlists');
                 res.render("playlist.hbs", payload);
             }
         }
@@ -126,8 +142,8 @@ router.post('/playlist/:playlistId/:songId', (req, res) => {
         if (err) {
             console.log('POST /playlist/:playlistId/:songId')
             console.log('addSong')
-            console.log('error: ', err)
-            // TODO: Handle error
+            console.log(err)
+            req.flash('playlists', 'internal server error')
         }
         res.redirect(req.session.previousPath)
     })
@@ -141,8 +157,8 @@ router.post('/playlist-delete/:playlistId/:songId', (req, res) => {
         if (err) {
             console.log('POST /playlist-delete/:playlistId/:songId')
             console.log('removeSong')
-            console.log('error: ', err)
-            // TODO: Handle error
+            console.log(err)
+            req.flash('playlists', 'internal server error')
         }
         res.redirect(req.session.previousPath)
     })
@@ -153,15 +169,17 @@ router.post('/playlist-delete/:playlistId', (req, res) => {
         if (err) {
             console.log('POST /playlist-delete/:playlistId')
             console.log('deletePlaylist')
-            console.log('error: ', err)
-            // TODO: Handle error
+            console.log(err)
+            req.flash('playlists', 'internal server error')
+            res.redirect(`/playlist/${req.params.playlistId}`)
         }
         models.playlists.getUserPlaylists(req.session.currentUser.id, (err, row) => {
             if (err) {
                 console.log('POST /playlist-delete/:playlistId')
                 console.log('getUserPlaylists')
-                console.log('error: ', err)
-                // TODO: Handle error
+                console.log(err)
+                req.flash('playlists', 'internal server error')
+                res.redirect(`/playlist/${req.params.playlistId}`)
             } else {
                 req.session.currentUser.playlists = row
                 res.redirect('/')

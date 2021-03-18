@@ -3,6 +3,7 @@ const { models } = require('../../../models');
 let router = express.Router()
 const bcrypt = require('bcryptjs');
 const jwt = require("jsonwebtoken");
+const { salt } = require('../../../pkg/auth')
 
 const SECRET_KEY = "supersecretkey"
 
@@ -46,7 +47,37 @@ router.post("/auth/login", (req, res) => {
 });
 
 router.post('/auth/signup', (req, res) => {
-
+  const { username, displayname, password } = req.body
+  if (!username && !displayname && !password) {
+    res.status(400).json({'message': 'missing username, displayname or password'})
+  } else {
+    models.users.getUserByUsername(username, (err, row) => {
+      if (err) {
+        console.log('API POST /auth/signup')
+        console.log('getUserByUsername')
+        console.log(err)
+        res.sendStatus(500)
+      }
+      if (row) {
+        res.status(400).json({'message': 'username already exists'})
+      } else {
+        models.users.setUser({
+          username,
+          password: bcrypt.hashSync(password, salt),
+          displayname,
+        }, (err, row) => {
+          if (err) {
+            console.log('API POST /auth/signup')
+            console.log('setUser')
+            console.log(err)
+            res.sendStatus(500)
+          } else {
+            res.sendStatus(201)
+          }
+        });
+      }
+    })
+  }
 })
 
 module.exports = router

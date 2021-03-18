@@ -57,11 +57,22 @@
         <div class="field is-horizontal">
             <div class="field-label"></div>
             <div class="field-body">
-                <div class="field">
-                    <div class="control">
-                        <button class="button is-primary">
-                            Create
-                        </button>
+                <div class="columns">
+                    <div class="column">
+                        <div class="field">
+                            <div class="control">
+                                <button class="button is-primary">
+                                    Create
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        {{#if message}}
+                            <div class="notification is-danger" style="padding: calc(.5em - 1px) 1em;">
+                                {{message}}
+                            </div>
+                        {{/if}}
                     </div>
                 </div>
             </div>

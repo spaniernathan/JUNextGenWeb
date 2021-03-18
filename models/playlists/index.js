@@ -111,7 +111,7 @@ let PlaylistsDB = class PlaylistsDatabase {
                 callback(err, null)
             } else {
                 this.db.run(`UPDATE playlists SET description = ?, imgUrl = ?, name = ?, public = ? WHERE id = ?`,
-                    [description || playlist.description, imgUrl || playlist.imgUrl, name || playlist.name, pub || playlist.public, playlistId], (err, row) => {
+                    [description || playlist.description, imgUrl || playlist.imgUrl, name || playlist.name, pub, playlistId], (err, row) => {
                         callback(err, row)
                     })
             }

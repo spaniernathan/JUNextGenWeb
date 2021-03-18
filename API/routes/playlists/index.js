@@ -38,28 +38,41 @@ router
     const { name, description, pub, imgUrl } = req.body;
     if (!name || !description || !pub) {
       res.status(400).json({'message': `missing name, description or pub`})
+    } else {
+      models.playlists.setPlaylist({name, description, pub, userId: req.user.id, imgUrl: imgUrl || ''}, (err, row) => {
+        if (err) {
+          console.log('API POST /playlists')
+          console.log('setPlaylist')
+          console.log(err)
+          res.sendStatus(500);
+        } else {
+          res.sendStatus(201)
+        }
+      })
     }
-    models.playlists.setPlaylist({name, description, pub, userId: req.user.id, imgUrl: imgUrl || ''}, (err, row) => {
-      if (err) {
-        console.log('API POST /playlists')
-        console.log('setPlaylist')
-        console.log(err)
-        res.sendStatus(500);
-      } else {
-        res.sendStatus(201)
-      }
-    })
   })
   // Get playlist by ID
   .get('/playlists/:playlistId', authenticateMiddleware, (req, res) => {
-    models.playlists.getPlaylist(req.params.playlistId, (err, row) => {
+    models.playlists.getPlaylistSongs(req.params.playlistId, (err, songs) => {
       if (err) {
-        res.sendStatus(500);
-        console.log('API GET /playlists/:playlistId')
-        console.log('getPlaylist')
+        console.log(`API GET /playlist/${req.params.playlistId}`)
+        console.log('getPlaylistSongs')
         console.log(err)
+        res.sendStatus(500);
       } else {
-        res.json(row);
+        models.playlists.getPlaylist(req.params.playlistId, (err, playlist) => {
+          if (err) {
+            console.log(`API GET /playlist/${req.params.playlistId}`)
+            console.log('getPlaylist')
+            console.log(err)
+            res.sendStatus(500)
+          } else {
+            res.json({
+              playlist,
+              songs
+            })
+          }
+        })
       }
     })
   })
@@ -93,7 +106,7 @@ router
 
   // Make playlist private
   .patch('/playlists/:playlistId/hide', [authenticateMiddleware, userOwnPlaylist], (req, res) => {
-    models.playlists.updatePlaylist({playlistId: req.params.playlistId, pub: false}, (err, _) => {
+    models.playlists.updatePlaylist({playlistId: req.params.playlistId, pub: 0}, (err, _) => {
       if (err) {
         console.log('API PATCH /playlists/:playlistId/hide')
         console.log('updatePlaylist')
@@ -106,7 +119,7 @@ router
   })
   // Make playlist public
   .patch('/playlists/:playlistId/unhide', [authenticateMiddleware, userOwnPlaylist], (req, res) => {
-    models.playlists.updatePlaylist({playlistId: req.params.playlistId, pub: true}, (err, _) => {
+    models.playlists.updatePlaylist({playlistId: req.params.playlistId, pub: 1}, (err, _) => {
       if (err) {
         console.log('API PATCH /playlists/:playlistId/unhide')
         console.log('updatePlaylist')

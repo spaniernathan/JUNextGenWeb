@@ -10,7 +10,6 @@ let APIRouter = require('./API');
 const router = require('./router');
 const app = express()
 
-console.log(path.join(__dirname + '/public'))
 app.use(express.static(path.join(__dirname + '/public')));
 app.engine('hbs', expressHandlebars({
   defaultLayout: 'main.hbs',
