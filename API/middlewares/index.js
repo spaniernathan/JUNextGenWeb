@@ -24,8 +24,9 @@ const userOwnPlaylist = (req, res, next) => {
                 console.log('getPlaylist')
                 console.log(err)
                 res.sendStatus(500)
+            } else {
+                playlist.user_id === req.user.id ? next() : res.sendStatus(403)
             }
-            playlist.user_id === req.user.id ? next() : res.sendStatus(403)
         })
     } else {
         res.sendStatus(400)
