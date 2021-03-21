@@ -12,3 +12,7 @@
 .body-style {
     min-height: 100vh;
 }
+
+.is-three-quarter-high {
+    height: 60vh;
+}
