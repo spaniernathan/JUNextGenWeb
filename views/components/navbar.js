@@ -3,7 +3,7 @@ const Handlebars = require('handlebars')
 const tmpl = `
 <nav class="navbar is-primary" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
-    <a class="navbar-item">
+    <a class="navbar-item" href="/">
       <img src="/icons/PlayLister.svg" width="52" height="28" alt="">
       Playlister
     </a>

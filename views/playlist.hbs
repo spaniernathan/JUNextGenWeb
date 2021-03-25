@@ -5,13 +5,37 @@
             <h2 class="subtitle">
                 {{playlist.description}}
                 <span class="tag is-info">{{playlist.userDisplayName}}</span>
+                {{#if playlist.public}}
+                    <span class="tag is-danger">public</span>
+                {{else}}
+                    <span class="tag is-danger">private</span>
+                {{/if}}
             </h2>
         </div>
         {{#if playlist.owned}}
-        <div class="column has-text-right">
-            <form method="post" action="/playlist-delete/{{playlist.id}}">
-                <input class="is-danger button" type="submit" value="Delete playlist"/>
-            </form>
+        <div class="column has-text-right is-narrow">
+            <div class="columns">
+                {{#if playlist.public}}
+                    <div class="column is-narrow">
+                        <form method="post" action="/playlist-visibility/{{playlist.id}}">
+                            <input class="is-info button" type="submit" value="Make private"/>
+                            <input class="is-info button" type="hidden" value="{{playlist.public}}" name="pub"/>
+                        </form>
+                    </div>
+                {{else}}
+                    <div class="column is-narrow">
+                        <form method="post" action="/playlist-visibility/{{playlist.id}}">
+                            <input class="is-info button" type="submit" value="Make public"/>
+                            <input class="is-info button" type="hidden" value="{{playlist.public}}" name="pub"/>
+                        </form>
+                    </div>
+                {{/if}}
+                <div class="column is-narrow">
+                    <form method="post" action="/playlist-delete/{{playlist.id}}">
+                        <input class="is-danger button" type="submit" value="Delete playlist"/>
+                    </form>
+                </div>
+            </div>
         </div>
         {{/if}}
     </div>

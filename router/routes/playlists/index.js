@@ -101,6 +101,7 @@ router.get('/playlist/:id', (req, res) => {
                             description: playlist["description"],
                             imgUrl: playlist["imgUrl"],
                             userDisplayName: playlist["userDisplayName"],
+                            public: playlist["public"],
                             songs: [],
                             owned: req.session.currentUser.id === playlist["user_id"],
                         }
@@ -115,6 +116,7 @@ router.get('/playlist/:id', (req, res) => {
                     description: songs[0]["description"],
                     imgUrl: songs[0]["imgUrl"],
                     userDisplayName: songs[0]["userDisplayName"],
+                    public: songs[0]["public"],
                     owned: req.session.currentUser.id === songs[0]["user_id"],
                     songs: songs.reduce((prev, curr) => {
                         return [...prev, {
@@ -131,6 +133,19 @@ router.get('/playlist/:id', (req, res) => {
                 res.render("playlist.hbs", payload);
             }
         }
+    })
+})
+
+router.post('/playlist-visibility/:playlistId', (req, res) => {
+    console.log({ playlistId: req.params.playlistId, pub: req.body.pub }, typeof req.body.pub)
+    models.playlists.updatePlaylist({ playlistId: req.params.playlistId, pub: !(req.body.pub === '1') }, (_, err) => {
+        if (err) {
+            console.log('/playlist-visibility/:playlistId')
+            console.log('updatePlaylist')
+            console.log(err)
+            req.flash('playlists', 'internal server error')
+        }
+        res.redirect(req.session.previousPath)
     })
 })
 
